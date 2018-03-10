@@ -1,0 +1,5 @@
+﻿  1.4.cpp
+c:\users\lenovo\documents\c\po\1.4\1.4\drzewo.h(11): warning C4091: 'typedef ': ignored on left of 'DrzewoBinarne' when no variable is declared
+c:\users\lenovo\documents\c\po\1.4\1.4\drzewo.h(51): warning C4715: 'szukaj': not all control paths return a value
+  1.4.vcxproj -> C:\Users\Lenovo\Documents\c\PO\1.4\Debug\1.4.exe
+  1.4.vcxproj -> C:\Users\Lenovo\Documents\c\PO\1.4\Debug\1.4.pdb (Full PDB)

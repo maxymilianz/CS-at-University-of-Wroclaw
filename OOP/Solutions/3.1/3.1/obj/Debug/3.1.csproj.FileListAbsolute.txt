@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\bin\Debug\3.1.exe.config
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\bin\Debug\3.1.exe
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\bin\Debug\3.1.pdb
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\obj\Debug\3.1.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\obj\Debug\3.1.exe
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\obj\Debug\3.1.pdb
+C:\Users\Lenovo\Documents\c#\PO\3.1\3.1\bin\Debug\Lista.dll

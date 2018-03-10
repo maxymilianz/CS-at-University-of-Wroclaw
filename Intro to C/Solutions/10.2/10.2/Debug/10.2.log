@@ -1,0 +1,10 @@
+﻿  10.2.cpp
+c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(16): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'char *'
+  c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(16): note: consider using '%hhd' in the format string
+c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(116): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(121): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(49): warning C4715: 'checkDigit': not all control paths return a value
+c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(108): warning C4715: 'prevLetter': not all control paths return a value
+c:\users\lenovo\documents\c\10.2\10.2\10.2.cpp(81): warning C4715: 'nextLetter': not all control paths return a value
+  10.2.vcxproj -> C:\Users\Lenovo\Documents\c\10.2\Debug\10.2.exe
+  10.2.vcxproj -> C:\Users\Lenovo\Documents\c\10.2\Debug\10.2.pdb (Full PDB)

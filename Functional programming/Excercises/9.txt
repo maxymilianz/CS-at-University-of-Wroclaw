@@ -1,0 +1,37 @@
+Zadanie 1 (3p.)
+Napisz procedurę count-change obliczającą liczbę sposobów rozmieniania danej kwoty na monety. Procedura bierze jako argument kwotę (nieujemną liczbę całkowitą) oraz listę nominałów monet (listę liczb całkowitych). Przykładowo, wartością wyrażenia
+
+(count-change 100 '(1 5 10 25 50))
+powinno być 292.
+
+Zadanie 2 (3p.)
+Napisz procedurę, która dla zadanej struktury składającej się z par (w tym list) i atomów zlicza liczbę atomów występujących w niej. Atomami nazywamy elementy nie służące do konstrukcji samej struktury danych, a więc liczby, wartości logiczne, symbole, znaki i napisy. Przykładowo:
+
+(count-atoms (cons 1 2)) = 2
+(count-atoms '(cons (#\c . x) "napis")) = 4
+Zadanie 3 (6p.)
+Ruchoma konstrukcja składa się z dwóch ramion (prawego i lewego). Każde ramię ma określoną długość, a na jego końcu zawieszony jest ciężarek lub inna ruchoma konstrukcja. Konstrukcje tego typu reprezentujemy za pomocą par:
+
+(define (mk-mobile left right) (cons left right))
+(define (mk-branch length struct) (cons length struct))
+Ciężarek reprezentujemy jako liczbę, która określa jego wagę.
+
+Napisz selektory left-branch,right-branch dla konstrukcji (zwracające odp. lewe i prawe ramię), oraz branch-length, branch-struct dla ramienia (zwracające odp. długość ramienia i strukturę/ciężar zawieszony na jego końcu).
+Używając selektorów napisz procedurę obliczającą całkowitą wagę konstrukcji, a także procedurę sprawdzającą, czy konstrukcja jest zbalansowana. Konstrukcja jest zbalansowana, gdy iloczyn długości ramienia i ciężaru na nim zawieszonego jest taki sam dla obu ramion, oraz gdy każda z podkonstrukcji wiszących na ramionach jest również zbalansowana.
+Napisz procedurę schematycznie rysującą zadaną konstrukcję, korzystając z bibliotek Racketa.
+Zadanie 4 (4p.)
+Napisz procedurę deriv wykonującą symboliczne różniczkowanie wyrażeń algebraicznych, dla której argumentami są: wyrażenie algebraiczne zbudowane ze zmiennych i stałych liczbowych za pomocą dodawania i mnożenia, oraz zmienna, względem której należy liczyć pochodną. Przykładowo, procedura mogłaby dawać takie wyniki:
+
+> (deriv '(* x y) 'x)
+y
+> (deriv '(* (* x y) (+ x 3)) 'x)
+(+ (* x y) (* y (+ x 3)))
+Jak widać z drugiego przykładu, należy zadbać o upraszczanie otrzymanych przez różniczkowanie wyrażeń co najmniej przez redukcję dodawania stałej 0 i mnożenia przez stałe 0 lub 1.
+
+Zadanie 5 (4p.)
+Korzystając z imperatywnych funkcji języka Scheme, zdefiniuj kolejkę FIFO. Implementacja powinna zawierać następujące funkcje:
+
+(make_queue), zwracającą nową, pustą kolejkę
+(queue-empty? q), zwracającą #t gdy kolejka q jest pusta i #f w przeciwnym razie
+(queue-add q v), dodającą wartość v do kolejki q
+(queue-pop q), usuwającą z (niepustej) kolejki q pierwszy element i zwracającą go jako wynik

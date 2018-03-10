@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+c:\users\lenovo\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(73): warning C4710: 'int printf(const char *const ,...)': function not inlined
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(944): note: see declaration of 'printf'
+c:\users\lenovo\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\consoleapplication1.cpp(65): warning C4701: potentially uninitialized local variable 'wyraz' used
+  ConsoleApplication1.vcxproj -> C:\Users\Lenovo\documents\visual studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\Lenovo\documents\visual studio 2015\Projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.pdb (Full PDB)

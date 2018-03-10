@@ -1,0 +1,23 @@
+Zadanie 1 (3p.)
+Kolejność ewaluacji argumentów funkcji zależy od kolejności, w jakiej argumenty funkcji ewaluuje Scheme, a dokładnie od tego w jakiej kolejności są ewaluowane argumenty operacji cons. Zmodyfikuj ewaluator tak, by niezależnie od implementacji Scheme'a ewaluował argumenty:
+
+od lewej do prawej
+od prawej do lewej.
+Wskazówka: Zauważ, że w Schemie ewaluacja wyrażenia (let ((x e1)) e2) polega na sekwencyjnym wyliczeniu wartości, najpierw wyrażenia e1, a następnie wyrażenia e2.
+
+Zadanie 2 (3p.)
+Rozszerz ewaluator tak, by obsługiwał wyrażenie let dostępne w Schemie. W tym celu ewaluator może albo tłumaczyć wyrażenie let na wyrażenia już przez ewaluator obsługiwane (podobnie jak wyrażenie cond, które jest tłumaczone na kaskadę if-ów), albo obsłużyć je bezpośrednio.
+
+Wskazówka: Zauważ, że wyrażenie (let ((x1 e1) ... (xn en)) e) jest równoważne wyrażeniu ((lambda (x1 ... xn) e) e1 ... en).
+
+Zadanie 3 (3p.)
+Rozszerz ewaluator o obsługę wyrażenia let*. W tym przypadku również należy użyć translacji do odpowiednich wyrażeń zbudowanych z lambda-abstrakcji i aplikacji.
+
+Zadanie 4 (5p.)
+Rozszerz ewaluator o obsługę wyrażenia letrec. Jednym z możliwych rozwiązań jest wyrażenie go za pomocą wyrażeń let oraz set!.
+
+Zadanie 5 (6p.)
+Zmodyfikuj ewaluator tak, by implementował strategię ewaluacji call by name zamiast call by value. W tym celu należy odraczać ewaluację argumentów funkcji. Zadbaj o odpowiednią organizację środowiska.
+
+Zadanie 6 (nieobowiązkowe, 10p.)
+Zmodyfikuj ewaluator tak, by mógł się zinterpretować.

@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\bin\Debug\3.3v2.exe.config
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\bin\Debug\3.3v2.exe
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\bin\Debug\3.3v2.pdb
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\bin\Debug\TimeNTon.dll
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\obj\Debug\3.3v2.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\obj\Debug\3.3v2.exe
+C:\Users\Lenovo\Documents\c#\PO\3.3v2\3.3v2\obj\Debug\3.3v2.pdb

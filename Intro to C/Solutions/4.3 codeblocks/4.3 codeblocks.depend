@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1479566821 source:c:\users\lenovo\documents\c\4.3\4.3 codeblocks\spz_alg.c
+	"f-protot.h"
+
+1479569023 c:\users\lenovo\documents\c\4.3\4.3 codeblocks\f-protot.h
+
+1479572912 source:c:\users\lenovo\documents\c\4.3\4.3 codeblocks\spz_io.c
+	<stdio.h>
+	<ctype.h>
+	"f-protot.h"
+
+1479569787 source:c:\users\lenovo\documents\c\4.3\4.3 codeblocks\spz_main.c
+	<stdio.h>
+	<stdlib.h>
+	"f-protot.h"
+

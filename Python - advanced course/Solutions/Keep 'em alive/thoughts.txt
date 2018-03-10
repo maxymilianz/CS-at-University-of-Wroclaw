@@ -1,0 +1,3 @@
+should Image and Animation constructor take paths and flags or pygame.image.Images
+
+Q-learning

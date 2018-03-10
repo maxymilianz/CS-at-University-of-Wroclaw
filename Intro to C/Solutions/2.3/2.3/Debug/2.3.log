@@ -1,0 +1,5 @@
+﻿  2.3.cpp
+c:\users\lenovo\documents\c\2.3\2.3\2.3.cpp(89): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\lenovo\documents\c\2.3\2.3\2.3.cpp(89): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  2.3.vcxproj -> C:\Users\Lenovo\Documents\c\2.3\Debug\2.3.exe
+  2.3.vcxproj -> C:\Users\Lenovo\Documents\c\2.3\Debug\2.3.pdb (Full PDB)

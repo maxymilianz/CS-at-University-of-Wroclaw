@@ -1,0 +1,6 @@
+C:\Users\Lenovo\Documents\c#\PO\2.1\2.1\bin\Debug\2.1.exe.config
+C:\Users\Lenovo\Documents\c#\PO\2.1\2.1\bin\Debug\2.1.exe
+C:\Users\Lenovo\Documents\c#\PO\2.1\2.1\bin\Debug\2.1.pdb
+C:\Users\Lenovo\Documents\c#\PO\2.1\2.1\obj\Debug\2.1.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\c#\PO\2.1\2.1\obj\Debug\2.1.exe
+C:\Users\Lenovo\Documents\c#\PO\2.1\2.1\obj\Debug\2.1.pdb

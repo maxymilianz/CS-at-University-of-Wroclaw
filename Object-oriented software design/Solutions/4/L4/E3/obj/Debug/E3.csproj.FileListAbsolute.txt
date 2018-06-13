@@ -1,0 +1,15 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\E3.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\E3.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\mscorlib.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\nunit.framework.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\nunit.framework.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\nunit.framework.xml
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\pl\mscorlib.resources.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\normidna.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\normnfc.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\normnfd.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\normnfkc.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\bin\Debug\normnfkd.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\obj\Debug\E3.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\obj\Debug\E3.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E3\obj\Debug\E3.pdb

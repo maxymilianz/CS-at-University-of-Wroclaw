@@ -1,0 +1,12 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\E7.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\E7.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\mscorlib.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\pl\mscorlib.resources.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\normidna.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\normnfc.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\normnfd.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\normnfkc.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\bin\Debug\normnfkd.nlp
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\obj\Debug\E7.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\obj\Debug\E7.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\3\L3\E7\obj\Debug\E7.pdb

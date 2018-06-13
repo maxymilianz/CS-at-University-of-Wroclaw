@@ -1,0 +1,15 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\E1.deps.json
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\E1.runtimeconfig.json
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\E1.runtimeconfig.dev.json
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\E1.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\E1.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\obj\Debug\netcoreapp2.0\E1.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\obj\Debug\netcoreapp2.0\E1.csproj.CoreCompileInputs.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\obj\Debug\netcoreapp2.0\E1.AssemblyInfoInputs.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\obj\Debug\netcoreapp2.0\E1.AssemblyInfo.cs
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\obj\Debug\netcoreapp2.0\E1.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\obj\Debug\netcoreapp2.0\E1.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\A\LA\E1\bin\Debug\netcoreapp2.0\Mono.Cecil.dll

@@ -1,0 +1,5 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E2\obj\Debug\E2.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E2\bin\Debug\E2.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E2\bin\Debug\E2.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E2\obj\Debug\E2.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E2\obj\Debug\E2.pdb

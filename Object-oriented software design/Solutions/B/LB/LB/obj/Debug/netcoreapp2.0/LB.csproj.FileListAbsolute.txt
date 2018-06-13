@@ -1,0 +1,15 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\LB.deps.json
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\LB.runtimeconfig.json
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\LB.runtimeconfig.dev.json
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\LB.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\bin\Debug\netcoreapp2.0\LB.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\obj\Debug\netcoreapp2.0\LB.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\obj\Debug\netcoreapp2.0\LB.csproj.CoreCompileInputs.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\obj\Debug\netcoreapp2.0\LB.AssemblyInfoInputs.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\obj\Debug\netcoreapp2.0\LB.AssemblyInfo.cs
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\obj\Debug\netcoreapp2.0\LB.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\B\LB\LB\obj\Debug\netcoreapp2.0\LB.pdb

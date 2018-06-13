@@ -1,0 +1,12 @@
+Logging at 12.04.2018 16:50:14:
+This is logged in file.
+
+Logging at 12.04.2018 16:52:36:
+This is logged in file.
+
+Logging at 17.04.2018 14:26:08:
+This is logged in file.
+
+Logging at 17.04.2018 14:28:51:
+This is logged in file.
+

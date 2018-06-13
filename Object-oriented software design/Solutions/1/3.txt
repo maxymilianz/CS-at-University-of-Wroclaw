@@ -1,0 +1,21 @@
+Problem - inwestowanie na giełdzie kryptowalut
+
+Główne scenariusze sukcesu:
+	1.1. Inwestor wybiera interesującą go parę walutową (kryptowaluta, waluta tradycyjna).
+	  2. Inwestor wybiera interesujący go przelicznik oraz ilość kryptowaluty, jaką chce nabyć.
+	  3. Inwestor składa ofertę.
+	  4.1. Jeśli na giełdzie istnieje oferta sprzedaży o <= cenie, to oferty się wzajemnie zamykają.
+	    2. W p.p. oferta trafia do puli ofert.
+		
+	2.1. Inwestor wybiera interesującą go parę walutową (kryptowaluta, waluta tradycyjna).
+	  2. Inwestor wybiera interesujący go przelicznik oraz ilość kryptowaluty, jaką chce sprzedać.
+	  3. Inwestor składa ofertę.
+	  4.1. Jeśli na giełdzie istnieje oferta kupna o >= cenie, to oferty się wzajemnie zamykają.
+	    2. W p.p. oferta trafia do puli ofert.
+		
+Metodą fraz rzeczownikowych:
+	inwestor, kryptowaluta, waluta tradycyjna, oferta kupna, oferta sprzedaży, pula ofert, giełda
+	
+inwestor posiada kryptowaluty i waluty tradycyjne
+inwestor tworzy oferty kupna i sprzedaży
+to wszystko dzieje się na giełdzie; tam też jest pula ofert

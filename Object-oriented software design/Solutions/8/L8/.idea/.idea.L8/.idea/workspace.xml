@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c3336a5-7d76-497d-9eab-bad0ad714e29" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/E2/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1525005900085" expanded="true" signature="13:137" ph="{...}" />
+                <marker date="1525005900085" expanded="true" signature="30:135" ph="{...}" />
+                <marker date="1525005900085" expanded="true" signature="66:132" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataAccessHandler.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/E2/DataAccessHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <marker date="1525005888335" expanded="true" signature="6:91" ph="..." />
+                <marker date="1525005888335" expanded="true" signature="106:2130" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="157:425" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="183:263" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="479:1239" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="621:819" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="855:980" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1019:1165" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1208:1236" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1294:2128" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1364:1402" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1443:1561" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1639:2079" ph="{...}" />
+                <marker date="1525005888335" expanded="true" signature="1811:2000" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/E1/Receivers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E4/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E2/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55165678-7568-4A19-B752-E1E590CA93E4/2e/45f3fa3d/TextWriter.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E4/TicketMachineContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E1/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E4/IState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E2/DataAccessHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/E3/DataAccessHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A16AAE03-79BD-45DB-B3D4-B31CE7C4876C/cd/ff015478/NetworkCredential.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E1/Commands.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55165678-7568-4A19-B752-E1E590CA93E4/f6/cddb2b9e/StreamWriter.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/E3/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/E1/Commands.cs" />
+        <option value="$PROJECT_DIR$/E1/Receivers.cs" />
+        <option value="$PROJECT_DIR$/E1/Program.cs" />
+        <option value="$PROJECT_DIR$/E4/IState.cs" />
+        <option value="$PROJECT_DIR$/E4/TicketMachineContext.cs" />
+        <option value="$PROJECT_DIR$/E4/Program.cs" />
+        <option value="$PROJECT_DIR$/E2/AbstractDataAccessHandler.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0c317296-09d1-4374-b0e2-dbcf95097d92/console.sql" />
+        <option value="$PROJECT_DIR$/E2/DataAccessHandler.cs" />
+        <option value="$PROJECT_DIR$/E2/Program.cs" />
+        <option value="$PROJECT_DIR$/E3/DataAccessHandler.cs" />
+        <option value="$PROJECT_DIR$/E3/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="L8 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="L8 (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="E2" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (jTds)&#10;Sqlite (Xerial)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/E2/sqlite-netFx46-binary-bundle-x64-2015-1.0.108.0/System.Data.SQLite.dll" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/E1/bin/Debug/netcoreapp2.0/E1.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/E1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/E1/E1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+    <configuration name="E2" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/E2/bin/Debug/netcoreapp2.0/E2.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/E2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/E2/E2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+    </configuration>
+    <configuration name="E3" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/E3/bin/Debug/netcoreapp2.0/E3.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/E3" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/E3/E3.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+    </configuration>
+    <configuration name="E4" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/E4/bin/Debug/netcoreapp2.0/E4.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/E4" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/E4/E4.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.E4" />
+      <item index="2" class="java.lang.String" itemvalue=".NET Project.E2" />
+      <item index="3" class="java.lang.String" itemvalue=".NET Project.E3" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.E3" />
+        <item index="1" class="java.lang.String" itemvalue=".NET Project.E2" />
+        <item index="2" class="java.lang.String" itemvalue=".NET Project.E4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c3336a5-7d76-497d-9eab-bad0ad714e29" name="Default" comment="" />
+      <created>1524933401281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524933401281</updated>
+      <workItem from="1524933403850" duration="7808000" />
+      <workItem from="1524986072141" duration="28000" />
+      <workItem from="1524986127615" duration="5961000" />
+      <workItem from="1524994296454" duration="2351000" />
+      <workItem from="1524996665890" duration="5062000" />
+      <workItem from="1525071568820" duration="1159000" />
+      <workItem from="1525782465646" duration="338000" />
+      <workItem from="1527679399223" duration="1056000" />
+      <workItem from="1528037924357" duration="623000" />
+      <workItem from="1528106029702" duration="2262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26648000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07239583" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/E1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <marker date="1524939844664" expanded="false" signature="6:74" ph="..." />
+            <marker date="1524939844664" expanded="true" signature="106:2928" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="235:1418" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="240:523" ph="/* something happened to my ftp account ... */" />
+            <marker date="1524939844664" expanded="true" signature="1455:2534" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2158:2530" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2208:2301" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2327:2422" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2448:2525" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2573:2925" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2591:2921" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2601:2840" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2865:2916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Commands.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1524937195139" expanded="true" signature="39:76" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="112:395" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="237:306" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="347:392" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="432:664" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="525:575" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="616:661" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="701:925" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="792:843" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="884:922" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="954:1146" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="1030:1071" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="1112:1143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Receivers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1524939130098" expanded="false" signature="6:48" ph="..." />
+            <marker date="1524939130098" expanded="true" signature="63:1844" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="86:847" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="286:361" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="411:844" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="871:1130" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="955:982" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1032:1127" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1159:1532" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1261:1282" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1326:1529" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1386:1525" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1552:1842" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1630:1655" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1695:1839" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1704:1743" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1769:1835" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <marker date="1524939844664" expanded="false" signature="6:74" ph="..." />
+            <marker date="1524939844664" expanded="true" signature="106:2928" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="235:1418" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="240:523" ph="/* something happened to my ftp account ... */" />
+            <marker date="1524939844664" expanded="true" signature="1455:2534" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2158:2530" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2208:2301" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2327:2422" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2448:2525" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2573:2925" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2591:2921" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2601:2840" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2865:2916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Commands.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1524937195139" expanded="true" signature="39:76" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="112:395" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="237:306" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="347:392" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="432:664" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="525:575" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="616:661" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="701:925" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="792:843" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="884:922" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="954:1146" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="1030:1071" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="1112:1143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Receivers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <marker date="1524939130098" expanded="false" signature="6:48" ph="..." />
+            <marker date="1524939130098" expanded="true" signature="63:1844" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="86:847" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="286:361" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="411:844" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="871:1130" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="955:982" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1032:1127" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1159:1532" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1261:1282" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1326:1529" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1386:1525" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1552:1842" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1630:1655" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1695:1839" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1704:1743" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1769:1835" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/DataAccessHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="86" column="1" lean-forward="true" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/60ca95f3-e92b-47d4-86af-d4326bf18053/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1a89390f/60ca95f3-e92b-47d4-86af-d4326bf18053/main.mytable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/60ca95f3-e92b-47d4-86af-d4326bf18053/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1a89390f/60ca95f3-e92b-47d4-86af-d4326bf18053/main.mytable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/DataAccessHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/60ca95f3-e92b-47d4-86af-d4326bf18053/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1a89390f/60ca95f3-e92b-47d4-86af-d4326bf18053/main.mytable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/DataAccessHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A16AAE03-79BD-45DB-B3D4-B31CE7C4876C/cd/ff015478/NetworkCredential.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55165678-7568-4A19-B752-E1E590CA93E4/2e/45f3fa3d/TextWriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="109" column="24" lean-forward="false" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55165678-7568-4A19-B752-E1E590CA93E4/f6/cddb2b9e/StreamWriter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="235" column="25" lean-forward="false" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E4/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E4/IState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E4/TicketMachineContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/1a89390f/0c317296-09d1-4374-b0e2-dbcf95097d92/main.mytable" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c317296-09d1-4374-b0e2-dbcf95097d92/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1a89390f/0c317296-09d1-4374-b0e2-dbcf95097d92/main.mytable" />
+    <entry file="das://table:/1a89390f/60ca95f3-e92b-47d4-86af-d4326bf18053/main.mytable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E3/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/60ca95f3-e92b-47d4-86af-d4326bf18053/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E3/DataAccessHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="65" column="41" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <marker date="1524939844664" expanded="false" signature="6:74" ph="..." />
+            <marker date="1524939844664" expanded="true" signature="106:2928" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="235:1418" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="240:523" ph="/* something happened to my ftp account ... */" />
+            <marker date="1524939844664" expanded="true" signature="1455:2534" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2158:2530" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2208:2301" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2327:2422" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2448:2525" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2573:2925" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2591:2921" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2601:2840" ph="{...}" />
+            <marker date="1524939844664" expanded="true" signature="2865:2916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Commands.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <marker date="1524937195139" expanded="true" signature="39:76" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="112:395" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="237:306" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="347:392" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="432:664" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="525:575" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="616:661" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="701:925" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="792:843" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="884:922" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="954:1146" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="1030:1071" ph="{...}" />
+            <marker date="1524937195139" expanded="true" signature="1112:1143" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E1/Receivers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-793">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1524939130098" expanded="false" signature="6:48" ph="..." />
+            <marker date="1524939130098" expanded="true" signature="63:1844" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="86:847" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="286:361" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="411:844" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="871:1130" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="955:982" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1032:1127" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1159:1532" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1261:1282" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1326:1529" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1386:1525" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1552:1842" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1630:1655" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1695:1839" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1704:1743" ph="{...}" />
+            <marker date="1524939130098" expanded="true" signature="1769:1835" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1525005900085" expanded="true" signature="13:137" ph="{...}" />
+            <marker date="1525005900085" expanded="true" signature="30:135" ph="{...}" />
+            <marker date="1525005900085" expanded="true" signature="66:132" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E2/DataAccessHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <marker date="1525005888335" expanded="true" signature="6:91" ph="..." />
+            <marker date="1525005888335" expanded="true" signature="106:2130" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="157:425" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="183:263" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="479:1239" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="621:819" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="855:980" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1019:1165" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1208:1236" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1294:2128" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1364:1402" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1443:1561" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1639:2079" ph="{...}" />
+            <marker date="1525005888335" expanded="true" signature="1811:2000" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

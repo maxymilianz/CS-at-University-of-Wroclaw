@@ -1,0 +1,70 @@
+Functionality
+	1. System powinien zapewniać bezpieczną metodę jednorazowego logowania
+użytkownika na czas jednej sesji umożliwiającą dostęp do wszystkich
+wymaganych obszarów i funkcjonalności systemu.
+	2. System musi posiadać rozbudowany system uprawnień i ról systemowych.
+	3. System musi zapewnić zarządzanie hasłem użytkownika pozwalając
+jednocześnie na jednoznaczną jego identyfikację; Przez zarządzanie hasłem
+rozumie się: definiowanie liczby znaków w haśle, okresu ważności hasła
+oraz niepowtarzalność hasła.
+
+Usability
+	Consistency
+		4. W całym systemie musi być jednolity interfejs.
+
+Reliability
+	Accuracy
+		5. Automatyczne naliczanie i księgowanie odsetek wg dowolnie
+zdefiniowanych modeli, z dokładnością do dnia.
+		6. Możliwość automatycznego korygowania naliczeń opłat za dowolnie
+wybrany okres z dokładnością do dnia (również takich, które odwołują się
+do wielu faktur).
+	Recoverability
+		7. System musi posiadać zabezpieczenia przed skasowaniem danych, które są
+powiązane z innymi danymi w systemie lub ich ostateczność została
+potwierdzona w inny sposób – poprzez odpowiednio wysoki status,
+przynależność do już zamkniętego miesiąca, itp.
+
+Performance
+
+Supportability
+	Compatibility
+		8. Konieczna jest współpraca ze skanerem w sposób umożliwiający
+digitalizację dokumentów papierowych bez konieczności opuszczania
+systemu i korzystania z jakiegokolwiek zewnętrznego oprogramowania, z
+możliwością zapisywania cyfrowych obrazów dokumentów w bazie danych,
+w sposób umożliwiający odszukanie ich z poziomu obiektów systemu,
+których dotyczą.
+		9. Płatności typu eCard, Blue Media.
+		10. System musi współpracować z pakietem pracy biurowej MS Office oraz
+zapewniać przekazywanie wybranych fragmentów tabel z danymi, lub
+tekstów do programów pakietu MS Office poprzez funkcję „kopiuj do
+schowka” lub inny, równie prosty w obsłudze sposób.
+
+
+SMART
+
+Simple
+	2 - co tzn. rozbudowany?
+	4 - jak bardzo jednolity?
+	5 - jak dowolnie zdefiniowanych?
+	
+Measurable
+	tak, jak Simple
+	
+Achievable
+	j.w.
+	
+Relevant
+	raczej wszystko ok, ew. "niepowtarzalność hasła" w 3 wydaje się głupia, jeśli
+		hasło ma się nie powtarzać u żadnego z użytkowników (wtedy można potencjalnie
+		łatwo dowiedzieć się, jakie hasło ktoś ma, choć nie wiadomo, kto)
+	poza tym w 8 jeśli sterowniki liczą się jako zewnętrzne oprogramowanie, to trochę
+		bez sensu
+		
+Time-specific
+	ok
+	
+	
+Pytanie do zamawiającego:
+	2 - co tzn. rozbudowany?

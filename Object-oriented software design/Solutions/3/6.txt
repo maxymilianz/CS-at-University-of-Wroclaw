@@ -1,0 +1,9 @@
+SRP - każda klasa powinna być odpowiedzialna za jedną rzecz.
+ISP - tworząc klasę implementującą jakiś interfejs / rozszerzającą klasę abstrakcyjną,
+	  programista nie powinien być zmuszony do implementacji metod, których nie
+	  potrzebuje - każdy interfejs / klasa abstrakcyjna powinna być odpowiedzialna za
+	  jedną rzecz.
+	  
+SRP i ISP dotykają podobnego problemu (by nie rzec tego samego). ISP bardziej skupia się
+jednak na tym, jak problem jest widziany przez "klienta", a SRP - twórcy interfejsu /
+klasy abstrakcyjnej.

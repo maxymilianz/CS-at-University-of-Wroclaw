@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="weld">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/weld-3.0.4.Final/artifacts/weld" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/weld-3.0.4.Final/artifacts/weld" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/weld-3.0.4.Final/artifacts/weld" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/weld-3.0.4.Final/artifacts/weld" recursive="false" type="SOURCES" />
+  </library>
+</component>

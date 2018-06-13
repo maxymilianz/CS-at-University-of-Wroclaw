@@ -1,0 +1,15 @@
+Zasada LSP nie jest spełniona, bo klient oczekuje, że "Height = h" nie wpłynie na Width,
+do którego wcześniej została przypisana wartość w. W tym przypadku nad sensownością
+kwadratu dziedziczącego po prostokącie programista powinien się zasnanowić już w chwili,
+gdy zdał sobie sprawę, że w klasie Square dwa atrybuty przyjmują zawsze tę samą wartość.
+Nie ma więc sensu obu ich trzymać.
+
+Możliwe przykładowe modyfikacje hierarchii klas celem zachowania zgodności z LSP:
+1. Kwadrat nie dziedziczy po prostokącie. Wtedy Width i Height w klasie Rectangle nie
+   powinny być virtual, bo nigdzie nie są override'owane.
+2. Klasa AbstractRectangle zawiera metodę Area(). Klasy Rectangle i Square ją rozszerzają
+   i implementują obliczanie pola w odpowiedni sposób.
+3. J.w., tylko nie ma klasy AbstractRectangle, a Figure.
+
+Moim zdaniem 3. opcja jest najlepsza. Generalnie wydaje mi się istotne, by "klient" nie
+musiał obliczać pola figury samemu.

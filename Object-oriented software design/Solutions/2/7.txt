@@ -1,0 +1,37 @@
+public class UsosWebPage {
+	private GradeController gradeController;
+	private PageLayout pageLayout;
+	
+	public void show() {
+		pageLayout = gradeController.getStudentGradeInfo();
+	}
+}
+
+private class GradeController {
+	private Student currentStudent;
+	
+	PageLayout getStudentGradeInfo() {
+		Mark[] marks;
+		
+		for (course c in currentStudent.getCourses())
+			marks += [c.getMark(currentStudent)];
+		
+		return PageLayout(marks);
+	}
+}
+
+private class Student {
+	private course[] courses;
+	
+	course[] getCourses() {
+		return courses;
+	}
+}
+
+private class course {
+	Mark getMark(Student student) {
+		return getValue(student);
+	}
+	
+	private Mark getValue(Student student);
+}

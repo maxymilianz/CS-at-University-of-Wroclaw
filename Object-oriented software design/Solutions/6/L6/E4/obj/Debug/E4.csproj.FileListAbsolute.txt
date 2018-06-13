@@ -1,0 +1,6 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E4\obj\Debug\E4.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E4\obj\Debug\E4.csproj.CoreCompileInputs.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E4\bin\Debug\E4.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E4\bin\Debug\E4.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E4\obj\Debug\E4.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\6\L6\E4\obj\Debug\E4.pdb

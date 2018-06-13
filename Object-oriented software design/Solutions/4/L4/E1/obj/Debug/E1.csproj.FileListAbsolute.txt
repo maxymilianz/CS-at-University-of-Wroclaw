@@ -1,0 +1,9 @@
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\bin\Debug\E1.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\bin\Debug\E1.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\obj\Debug\E1.csprojResolveAssemblyReference.cache
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\obj\Debug\E1.exe
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\obj\Debug\E1.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\bin\Debug\nunit.framework.dll
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\bin\Debug\nunit.framework.pdb
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\bin\Debug\nunit.framework.xml
+C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\4\L4\E1\obj\Debug\E1.csproj.CoreCompileInputs.cache

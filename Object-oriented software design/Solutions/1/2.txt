@@ -1,0 +1,34 @@
+Problem - inwestowanie na giełdzie kryptowalut
+Przypadki użycia: sprzedaż i kupno kryptowalut
+
+Opis w formie skróconej sprzedaży kryptowalut:
+	użytkownik wybiera interesującą go kryptowalutę, ilość (<= to, co posiada), jaką chce sprzedać,
+	oraz cenę w wybranej
+	walucie tradycyjnej. Jeśli na giełdzie istnieje oferta kupna z ceną >= cena podana przez
+	użytkownika, to transakcja jest natychmiastowo realizowana, z konta sprzedającego ściągana jest
+	dodatkowo opłata transakcyjna 'market taker', a kupującego - 'market maker'. W przeciwnym
+	przypadku oferta sprzedaży zostaje dodana do puli ofert na giełdzie.
+	
+Opis w formie pełnej kupna kryptowalut:
+	Poziom - celem użytkownika jest zakup wybranej ilości wybranej kryptowaluty po wybranym kursie
+		wybranej waluty tradycyjnej.
+	Interesariuszem jest głównie osoba składająca ofertę. Kiedy jednak oferta zostanie zrealizowana
+		(w szczególności być może od razu), drugim interesariuszem jest osoba realizująca ofertę
+		(sprzedająca odpowiednią kryptowalutę po odpowiedniej cenie w odpowiedniej walucie
+		tradycyjnej).
+	Warunki początkowe: osoba składająca ofertę kupna musi posiadać odpowiednie środki na zakup
+		kryptowaluty w wybranej walucie tradycyjnej.
+	Warunki zakończenia (powodzenia): oferta kupna została dodana do zbioru ofert na giełdzie lub
+		została natychmiastowo zrealizowana.
+	Główny scenariusz sukcesu - złożenie oferty -> dodanie jej do zbioru / natychmiastowa realizacja.
+	Rozszerzenia: brak wymaganych środków na koncie w wybranej walucie tradycyjnej => komunikat o
+		błędzie.
+	Kroki:
+		zdarzenie inicjujące przypadek użycia - chęć kupna przez kogoś kryptowaluty.
+		interakcja między aktorami - jeden wystawia ofertę kupna, drugi ją realizuje.
+		walidacja - sprawdzenie, czy na koncie osoby chcącej kupić kryptowalutę znajduje się
+			odpowiednia ilość środków w wybranej walucie tradycyjnej
+		zmiana stanu systemu - dodanie oferty do zbioru / natychmiastowa jej realizacja
+	Dodatkowe wymagania: brak
+	Technologia i format danych: wymagane jest szyfrowane połączenie dla bezpieczeństwa; format
+		danych dowolny.

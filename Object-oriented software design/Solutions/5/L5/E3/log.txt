@@ -1,0 +1,6 @@
+AcquirePlane method call at 01.04.2018 17:54:36. Call finished. 'E3.Plane 1' returned.
+ReleasePlane method call at 01.04.2018 17:54:36 with 'E3.Plane 1' argument. Call finished.
+AcquirePlane method call at 01.04.2018 18:27:28. Call finished. 'E3.Plane 1' returned.
+ReleasePlane method call at 01.04.2018 18:27:28 with 'E3.Plane 1' argument. Call finished.
+AcquirePlane method call at 10.04.2018 14:29:31. Call finished. 'E3.Plane 1' returned.
+ReleasePlane method call at 10.04.2018 14:29:31 with 'E3.Plane 1' argument. Call finished.

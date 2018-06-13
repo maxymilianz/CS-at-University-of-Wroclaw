@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Maksymilian Zawartko\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_MVP.Example.-868514042.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Maksymilian Zawartko\Documents\Dokumenty\studia\lato 17-18\POO\C\MVP.Example" t="IncludeFlat">
+      <e p="MVP.Example" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FrmAddItem.cs" t="Include" />
+        <e p="FrmAddItem.Designer.cs" t="Include" />
+        <e p="FrmAddItem.resx" t="Include" />
+        <e p="FrmMain.cs" t="Include" />
+        <e p="FrmMain.Designer.cs" t="Include" />
+        <e p="FrmMain.resx" t="Include" />
+        <e p="MVP.Example.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="SqlScript.sql" t="Include" />
+      </e>
+      <e p="MVP.Example.Refactored" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EventAggregator.cs" t="Include" />
+        <e p="FrmAddItem.cs" t="Include" />
+        <e p="FrmAddItem.Designer.cs" t="Include" />
+        <e p="FrmAddItem.resx" t="Include" />
+        <e p="FrmMain.cs" t="Include" />
+        <e p="FrmMain.Designer.cs" t="Include" />
+        <e p="FrmMain.resx" t="Include" />
+        <e p="Model" t="Include">
+          <e p="IPersonRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="UnitOfWorkFactory.cs" t="Include" />
+        </e>
+        <e p="Model.Impl" t="Include">
+          <e p="SqlPersonRepository.cs" t="Include" />
+          <e p="SqlUnitOfWork.cs" t="Include" />
+        </e>
+        <e p="MVP.Example.Refactored.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+      </e>
+      <e p="MVP.Example.Refactored.2" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="EventAggregator.cs" t="Include" />
+        <e p="Model" t="Include">
+          <e p="IPersonRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="UnitOfWorkFactory.cs" t="Include" />
+        </e>
+        <e p="Model.Impl" t="Include">
+          <e p="SqlPersonRepository.cs" t="Include" />
+          <e p="SqlUnitOfWork.cs" t="Include" />
+        </e>
+        <e p="MVP.Example.Refactored.2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="FrmAddItem" t="Include">
+            <e p="FrmAddItem.cs" t="Include" />
+            <e p="FrmAddItem.Designer.cs" t="Include" />
+            <e p="FrmAddItem.resx" t="Include" />
+            <e p="FrmAddItemPresenter.cs" t="Include" />
+            <e p="IFrmAddItem.cs" t="Include" />
+            <e p="TestFrmAddItem.cs" t="Include" />
+          </e>
+          <e p="FrmMain" t="Include">
+            <e p="FrmMain.cs" t="Include" />
+            <e p="FrmMain.Designer.cs" t="Include" />
+            <e p="FrmMain.resx" t="Include" />
+            <e p="FrmMainPresenter.cs" t="Include" />
+            <e p="IFrmMain.cs" t="Include" />
+            <e p="TestFrmMain.cs" t="Include" />
+          </e>
+          <e p="ViewFactory.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MVP.Example.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

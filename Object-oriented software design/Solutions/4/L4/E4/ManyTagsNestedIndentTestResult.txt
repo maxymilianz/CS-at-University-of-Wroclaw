@@ -1,0 +1,9 @@
+<tag0>
+    <tag2>
+        body2
+    </tag2>
+    body0
+</tag0>
+<tag1>
+    body1
+</tag1>

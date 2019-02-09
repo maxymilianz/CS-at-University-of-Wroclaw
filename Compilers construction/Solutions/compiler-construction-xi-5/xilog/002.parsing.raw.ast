@@ -1,0 +1,396 @@
+ModuleDefinition [
+   GDECL_Function {
+      loc = 01_sort.xi:1:1;
+      id = "printString";
+      formal_parameters = [
+            VarDecl {
+               loc = 01_sort.xi:1:13;
+               id = "x";
+               tp = TPEXPR_Array {
+                     loc = 01_sort.xi:1:15;
+                     sub = TEXPR_Int {
+                           loc = 01_sort.xi:1:15;
+                           };
+                     dim = None;
+                     };
+               };
+            ];
+      return_types = [
+            ];
+      body = None;
+      };
+   GDECL_Function {
+      loc = 01_sort.xi:3:1;
+      id = "sort";
+      formal_parameters = [
+            VarDecl {
+               loc = 01_sort.xi:3:6;
+               id = "a";
+               tp = TPEXPR_Array {
+                     loc = 01_sort.xi:3:9;
+                     sub = TEXPR_Int {
+                           loc = 01_sort.xi:3:9;
+                           };
+                     dim = None;
+                     };
+               };
+            ];
+      return_types = [
+            ];
+      body = Some STMTBlock {
+            loc = 01_sort.xi:3:16;
+            body = [
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 01_sort.xi:4:3;
+                           id = "i";
+                           tp = TEXPR_Int {
+                                 loc = 01_sort.xi:4:5;
+                                 };
+                           };
+                     init = Some EXPR_Int {
+                           loc = 01_sort.xi:4:11;
+                           tag = %node0;
+                           value = 0;
+                           };
+                     };
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 01_sort.xi:5:3;
+                           id = "n";
+                           tp = TEXPR_Int {
+                                 loc = 01_sort.xi:5:5;
+                                 };
+                           };
+                     init = Some EXPR_Length {
+                           loc = 01_sort.xi:5:11;
+                           tag = %node2;
+                           arg = EXPR_Id {
+                                 loc = 01_sort.xi:5:18;
+                                 tag = %node1;
+                                 id = "a";
+                                 };
+                           };
+                     };
+                  STMT_While {
+                     loc = 01_sort.xi:6:3;
+                     cond = EXPR_Relation {
+                           loc = 01_sort.xi:6:10;
+                           tag = %node5;
+                           op = RELOP_Lt;
+                           lhs = EXPR_Id {
+                                 loc = 01_sort.xi:6:10;
+                                 tag = %node3;
+                                 id = "i";
+                                 };
+                           rhs = EXPR_Id {
+                                 loc = 01_sort.xi:6:14;
+                                 tag = %node4;
+                                 id = "n";
+                                 };
+                           };
+                     body = STMT_Block STMTBlock {
+                           loc = 01_sort.xi:6:17;
+                           body = [
+                                 STMT_VarDecl {
+                                    var = VarDecl {
+                                          loc = 01_sort.xi:7:7;
+                                          id = "j";
+                                          tp = TEXPR_Int {
+                                                loc = 01_sort.xi:7:9;
+                                                };
+                                          };
+                                    init = Some EXPR_Id {
+                                          loc = 01_sort.xi:7:15;
+                                          tag = %node6;
+                                          id = "i";
+                                          };
+                                    };
+                                 STMT_While {
+                                    loc = 01_sort.xi:8:7;
+                                    cond = EXPR_Relation {
+                                          loc = 01_sort.xi:8:14;
+                                          tag = %node9;
+                                          op = RELOP_Gt;
+                                          lhs = EXPR_Id {
+                                                loc = 01_sort.xi:8:14;
+                                                tag = %node7;
+                                                id = "j";
+                                                };
+                                          rhs = EXPR_Int {
+                                                loc = 01_sort.xi:8:18;
+                                                tag = %node8;
+                                                value = 0;
+                                                };
+                                          };
+                                    body = STMT_Block STMTBlock {
+                                          loc = 01_sort.xi:8:21;
+                                          body = [
+                                                STMT_If {
+                                                   loc = 01_sort.xi:9:9;
+                                                   cond = EXPR_Relation {
+                                                         loc = 01_sort.xi:9:13;
+                                                         tag = %node18;
+                                                         op = RELOP_Gt;
+                                                         lhs = EXPR_Index {
+                                                               loc = 01_sort.xi:9:13;
+                                                               tag = %node14;
+                                                               expr = EXPR_Id {
+                                                                     loc = 01_sort.xi:9:13;
+                                                                     tag = %node10;
+                                                                     id = "a";
+                                                                     };
+                                                               index = EXPR_Binop {
+                                                                     loc = 01_sort.xi:9:15;
+                                                                     tag = %node13;
+                                                                     op = BINOP_Sub;
+                                                                     lhs = EXPR_Id {
+                                                                           loc = 01_sort.xi:9:15;
+                                                                           tag = %node11;
+                                                                           id = "j";
+                                                                           };
+                                                                     rhs = EXPR_Int {
+                                                                           loc = 01_sort.xi:9:17;
+                                                                           tag = %node12;
+                                                                           value = 1;
+                                                                           };
+                                                                     };
+                                                               };
+                                                         rhs = EXPR_Index {
+                                                               loc = 01_sort.xi:9:22;
+                                                               tag = %node17;
+                                                               expr = EXPR_Id {
+                                                                     loc = 01_sort.xi:9:22;
+                                                                     tag = %node15;
+                                                                     id = "a";
+                                                                     };
+                                                               index = EXPR_Id {
+                                                                     loc = 01_sort.xi:9:24;
+                                                                     tag = %node16;
+                                                                     id = "j";
+                                                                     };
+                                                               };
+                                                         };
+                                                   then_branch = STMT_Block STMTBlock {
+                                                         loc = 01_sort.xi:9:28;
+                                                         body = [
+                                                               STMT_VarDecl {
+                                                                  var = VarDecl {
+                                                                        loc = 01_sort.xi:10:13;
+                                                                        id = "swap";
+                                                                        tp = TEXPR_Int {
+                                                                              loc = 01_sort.xi:10:18;
+                                                                              };
+                                                                        };
+                                                                  init = Some EXPR_Index {
+                                                                        loc = 01_sort.xi:10:24;
+                                                                        tag = %node21;
+                                                                        expr = EXPR_Id {
+                                                                              loc = 01_sort.xi:10:24;
+                                                                              tag = %node19;
+                                                                              id = "a";
+                                                                              };
+                                                                        index = EXPR_Id {
+                                                                              loc = 01_sort.xi:10:26;
+                                                                              tag = %node20;
+                                                                              id = "j";
+                                                                              };
+                                                                        };
+                                                                  };
+                                                               STMT_Assign {
+                                                                  loc = 01_sort.xi:11:13;
+                                                                  lhs = LVALUE_Index {
+                                                                        loc = 01_sort.xi:11:13;
+                                                                        sub = EXPR_Id {
+                                                                              loc = 01_sort.xi:11:13;
+                                                                              tag = %node22;
+                                                                              id = "a";
+                                                                              };
+                                                                        index = EXPR_Id {
+                                                                              loc = 01_sort.xi:11:15;
+                                                                              tag = %node23;
+                                                                              id = "j";
+                                                                              };
+                                                                        };
+                                                                  rhs = EXPR_Index {
+                                                                        loc = 01_sort.xi:11:20;
+                                                                        tag = %node28;
+                                                                        expr = EXPR_Id {
+                                                                              loc = 01_sort.xi:11:20;
+                                                                              tag = %node24;
+                                                                              id = "a";
+                                                                              };
+                                                                        index = EXPR_Binop {
+                                                                              loc = 01_sort.xi:11:22;
+                                                                              tag = %node27;
+                                                                              op = BINOP_Sub;
+                                                                              lhs = EXPR_Id {
+                                                                                    loc = 01_sort.xi:11:22;
+                                                                                    tag = %node25;
+                                                                                    id = "j";
+                                                                                    };
+                                                                              rhs = EXPR_Int {
+                                                                                    loc = 01_sort.xi:11:24;
+                                                                                    tag = %node26;
+                                                                                    value = 1;
+                                                                                    };
+                                                                              };
+                                                                        };
+                                                                  };
+                                                               STMT_Assign {
+                                                                  loc = 01_sort.xi:12:13;
+                                                                  lhs = LVALUE_Index {
+                                                                        loc = 01_sort.xi:12:13;
+                                                                        sub = EXPR_Id {
+                                                                              loc = 01_sort.xi:12:13;
+                                                                              tag = %node29;
+                                                                              id = "a";
+                                                                              };
+                                                                        index = EXPR_Binop {
+                                                                              loc = 01_sort.xi:12:15;
+                                                                              tag = %node32;
+                                                                              op = BINOP_Sub;
+                                                                              lhs = EXPR_Id {
+                                                                                    loc = 01_sort.xi:12:15;
+                                                                                    tag = %node30;
+                                                                                    id = "j";
+                                                                                    };
+                                                                              rhs = EXPR_Int {
+                                                                                    loc = 01_sort.xi:12:17;
+                                                                                    tag = %node31;
+                                                                                    value = 1;
+                                                                                    };
+                                                                              };
+                                                                        };
+                                                                  rhs = EXPR_Id {
+                                                                        loc = 01_sort.xi:12:22;
+                                                                        tag = %node33;
+                                                                        id = "swap";
+                                                                        };
+                                                                  };
+                                                               ];
+                                                         };
+                                                   else_branch = None;
+                                                   };
+                                                STMT_Assign {
+                                                   loc = 01_sort.xi:14:9;
+                                                   lhs = LVALUE_Id {
+                                                         loc = 01_sort.xi:14:9;
+                                                         id = "j";
+                                                         };
+                                                   rhs = EXPR_Binop {
+                                                         loc = 01_sort.xi:14:13;
+                                                         tag = %node36;
+                                                         op = BINOP_Sub;
+                                                         lhs = EXPR_Id {
+                                                               loc = 01_sort.xi:14:13;
+                                                               tag = %node34;
+                                                               id = "j";
+                                                               };
+                                                         rhs = EXPR_Int {
+                                                               loc = 01_sort.xi:14:15;
+                                                               tag = %node35;
+                                                               value = 1;
+                                                               };
+                                                         };
+                                                   };
+                                                ];
+                                          };
+                                    };
+                                 STMT_Assign {
+                                    loc = 01_sort.xi:16:7;
+                                    lhs = LVALUE_Id {
+                                          loc = 01_sort.xi:16:7;
+                                          id = "i";
+                                          };
+                                    rhs = EXPR_Binop {
+                                          loc = 01_sort.xi:16:11;
+                                          tag = %node39;
+                                          op = BINOP_Add;
+                                          lhs = EXPR_Id {
+                                                loc = 01_sort.xi:16:11;
+                                                tag = %node37;
+                                                id = "i";
+                                                };
+                                          rhs = EXPR_Int {
+                                                loc = 01_sort.xi:16:13;
+                                                tag = %node38;
+                                                value = 1;
+                                                };
+                                          };
+                                    };
+                                 ];
+                           };
+                     };
+                  ];
+            };
+      };
+   GDECL_Function {
+      loc = 01_sort.xi:21:1;
+      id = "main";
+      formal_parameters = [
+            ];
+      return_types = [
+            TEXPR_Int {
+               loc = 01_sort.xi:21:8;
+               };
+            ];
+      body = Some STMTBlock {
+            loc = 01_sort.xi:22:1;
+            body = [
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 01_sort.xi:23:5;
+                           id = "x";
+                           tp = TPEXPR_Array {
+                                 loc = 01_sort.xi:23:7;
+                                 sub = TEXPR_Int {
+                                       loc = 01_sort.xi:23:7;
+                                       };
+                                 dim = None;
+                                 };
+                           };
+                     init = Some EXPR_String {
+                           loc = 01_sort.xi:23:15;
+                           tag = %node40;
+                           value = "Wroclaw";
+                           };
+                     };
+                  STMT_Call Call {
+                     loc = 01_sort.xi:24:5;
+                     tag = %node42;
+                     callee = "sort";
+                     arguments = [
+                           EXPR_Id {
+                              loc = 01_sort.xi:24:10;
+                              tag = %node41;
+                              id = "x";
+                              };
+                           ];
+                     };
+                  STMT_Call Call {
+                     loc = 01_sort.xi:25:5;
+                     tag = %node44;
+                     callee = "printString";
+                     arguments = [
+                           EXPR_Id {
+                              loc = 01_sort.xi:25:17;
+                              tag = %node43;
+                              id = "x";
+                              };
+                           ];
+                     };
+                  STMT_Return {
+                     loc = 01_sort.xi:26:5;
+                     values = [
+                           EXPR_Int {
+                              loc = 01_sort.xi:26:12;
+                              tag = %node45;
+                              value = 1;
+                              };
+                           ];
+                     };
+                  ];
+            };
+      };
+   ]

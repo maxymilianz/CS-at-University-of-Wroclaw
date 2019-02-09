@@ -1,0 +1,52 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 1
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    def [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    move %hard4, 32
+    call [%hard2], _xi_alloc, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %tmp19, %hard2
+    storevar 0, %tmp19
+    loadvar %tmp20, 0
+    add %tmp20, %tmp20, 4
+    storevar 0, %tmp20
+    move %tmp11, 7
+    loadvar %tmp21, 0
+    storemem %tmp21, -4, %tmp11 // mem[%tmp21 + -4] = %tmp11
+    move %tmp12, 87
+    loadvar %tmp22, 0
+    storemem %tmp22, 0, %tmp12 // mem[%tmp22 + 0] = %tmp12
+    move %tmp13, 114
+    loadvar %tmp23, 0
+    storemem %tmp23, 4, %tmp13 // mem[%tmp23 + 4] = %tmp13
+    move %tmp14, 111
+    loadvar %tmp24, 0
+    storemem %tmp24, 8, %tmp14 // mem[%tmp24 + 8] = %tmp14
+    move %tmp15, 99
+    loadvar %tmp25, 0
+    storemem %tmp25, 12, %tmp15 // mem[%tmp25 + 12] = %tmp15
+    move %tmp16, 108
+    loadvar %tmp26, 0
+    storemem %tmp26, 16, %tmp16 // mem[%tmp26 + 16] = %tmp16
+    move %tmp17, 97
+    loadvar %tmp27, 0
+    storemem %tmp27, 20, %tmp17 // mem[%tmp27 + 20] = %tmp17
+    move %tmp18, 119
+    loadvar %tmp28, 0
+    storemem %tmp28, 24, %tmp18 // mem[%tmp28 + 24] = %tmp18
+    loadvar %tmp29, 0
+    move %hard4, %tmp29
+    call [], _I_sort_ai_, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    loadvar %tmp30, 0
+    move %hard4, %tmp30
+    call [], _I_printString_ai_, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %hard2, 1
+    use [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    return [%hard2]

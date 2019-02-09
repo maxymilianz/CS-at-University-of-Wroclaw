@@ -1,0 +1,106 @@
+Mod_uwr__Typechecker: 033_multiarray.xi:2:15: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:2:15: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:2:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:2:12: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:3:11: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:3:11: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:3:8: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:3:8: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:3:5: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:3:5: inferred type int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:3:16: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:3:16: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:4:11: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:4:11: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:4:8: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:4:8: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:4:5: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:4:5: inferred type int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:4:16: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:4:16: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:5:11: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:5:11: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:5:8: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:5:8: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:5:5: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:5:5: inferred type int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:5:16: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:5:16: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:6:11: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:6:11: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:6:8: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:6:8: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:6:5: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:6:5: inferred type int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:6:16: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:6:16: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:7:11: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:7:11: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:7:8: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:7:8: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:7:5: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:7:5: inferred type int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:7:16: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:7:16: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:8:11: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:8:11: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:8:8: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:8:8: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:8:5: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:8:5: inferred type int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:8:16: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:8:16: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:18: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:18: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:15: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:15: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: checking expression against int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:12: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:23: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:29: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:29: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:23: checking expression against int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:26: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:26: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:23: checking expression against int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:23: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:34: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:40: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:40: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:34: checking expression against int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:37: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:37: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:34: checking expression against int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:34: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:45: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:51: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:51: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:45: checking expression against int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:48: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:48: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:45: checking expression against int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:45: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:56: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:62: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:62: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:56: checking expression against int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:59: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:59: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:56: checking expression against int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:56: inferred type int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:67: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:73: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:73: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:67: checking expression against int[]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:70: checking expression against int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:70: inferred type int
+Mod_uwr__Typechecker: 033_multiarray.xi:9:67: checking expression against int[][]
+Mod_uwr__Typechecker: 033_multiarray.xi:9:67: inferred type int[][]
+Xi_lib__Logger: Dumping 004.typechecking.types

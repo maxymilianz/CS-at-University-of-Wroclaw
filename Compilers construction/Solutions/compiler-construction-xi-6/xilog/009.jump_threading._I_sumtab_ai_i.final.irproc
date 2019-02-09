@@ -1,0 +1,40 @@
+////////////////////////////////////// 
+procedure _I_sumtab_ai_i
+    frame size: 0
+    formal parameters: 1
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L4, L6]
+L2:
+    cfg successors: [L3]
+    cfg predecessors: [L0]
+    move %tmp1, 0
+    move %tmp2, 0
+    length %tmp3, %tmp0
+    move %tmp4, %tmp3
+    jump L3
+L3:
+    cfg successors: [L4, L5]
+    cfg predecessors: [L2, L5]
+
+    branch lt, %tmp2, %tmp4, L5, L4
+L4:
+    cfg successors: [L1]
+    cfg predecessors: [L3]
+
+    return [%tmp1]
+L5:
+    cfg successors: [L3]
+    cfg predecessors: [L3]
+    loadarray %tmp5, %tmp0, %tmp2 // %tmp5 = %tmp0[%tmp2]
+    add %tmp6, %tmp1, %tmp5
+    move %tmp1, %tmp6
+    add %tmp7, %tmp2, 1
+    move %tmp2, %tmp7
+    jump L3
+L6:
+    cfg successors: [L1]
+    cfg predecessors: []
+
+    return []

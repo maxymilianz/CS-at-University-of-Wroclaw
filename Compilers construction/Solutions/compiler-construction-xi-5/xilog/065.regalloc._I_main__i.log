@@ -1,0 +1,183 @@
+Mod_uwr__Regalloc: Starting register-allocation
+Mod_uwr__Regalloc: Starting iteration main-loop 0
+Xi_lib__Logger: Dumping 066.regalloc._I_main__i.begin-loop
+Xi_lib__Measure: init: execution time 0.000012
+Mod_uwr__Regalloc: Starting iteration build-coalescence 0
+Mod_uwr__Regalloc: building interference graph
+Xi_lib__Logger: Dumping 067.regalloc._I_main__i.before-inf-build.lva.xdot
+Xi_lib__Logger: Dumping 068.regalloc._I_main__i.before-simplify.infg.xdot
+Xi_lib__Measure: build: execution time 0.041658
+Mod_uwr__Regcoalescing: merging %tmp8 %hard21
+Mod_uwr__Regcoalescing: merging %tmp10 %hard23
+Mod_uwr__Regcoalescing: merging %tmp5 %hard18
+Mod_uwr__Regcoalescing: merging %tmp7 %hard20
+Mod_uwr__Regcoalescing: merging %tmp3 %hard16
+Mod_uwr__Regcoalescing: merging %tmp6 %hard19
+Mod_uwr__Regcoalescing: merging %tmp4 %hard17
+Mod_uwr__Regcoalescing: merging %tmp9 %hard22
+Xi_lib__Logger: Dumping 069.regalloc._I_main__i.coalescence
+Xi_lib__Measure: coalescence: execution time 0.009087
+Xi_lib__Measure: iteration: execution time 0.050927
+Mod_uwr__Regalloc: Starting iteration build-coalescence 1
+Mod_uwr__Regalloc: building interference graph
+Xi_lib__Logger: Dumping 070.regalloc._I_main__i.before-inf-build.lva.xdot
+Xi_lib__Logger: Dumping 071.regalloc._I_main__i.before-simplify.infg.xdot
+Xi_lib__Measure: build: execution time 0.024080
+Xi_lib__Logger: Dumping 072.regalloc._I_main__i.coalescence
+Xi_lib__Measure: coalescence: execution time 0.005646
+Xi_lib__Measure: iteration: execution time 0.029900
+Xi_lib__Measure: build-coalescence : execution time 0.080963
+Mod_uwr__Regalloc: Computing dominators
+Mod_uwr__Regalloc: Computing natural-loops
+Mod_uwr__Regalloc: Computing spill-costs
+Xi_lib__Logger: Dumping 073.regalloc._I_main__i.spill_costs
+Xi_lib__Measure: spillcosts: execution time 0.010764
+Mod_uwr__Regalloc: Stacking register %tmp11 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp12 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp13 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp14 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp15 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp16 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp17 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp18 of degree 9
+Mod_uwr__Regalloc: No more small-degree registers
+Mod_uwr__Regalloc: Local spill costs: [reg:cost:degree] %tmp0:0.520000:25
+Mod_uwr__Regalloc: Potential spill - register %tmp0
+Mod_uwr__Regalloc: No more temporary registers in interference-graph
+Xi_lib__Measure: simplify: execution time 0.001316
+Mod_uwr__Regalloc: Picking color for %tmp0
+Mod_uwr__Regalloc: Neighbours have colors: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Marking as actual spill (artificial color 25)
+Mod_uwr__Regalloc: Picking color for %tmp18
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp17
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp16
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp15
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp14
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp13
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp12
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp11
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24 25
+Mod_uwr__Regalloc: Selected color is 0
+Xi_lib__Measure: select: execution time 0.001243
+Mod_uwr__Regalloc: Actual spills: [%tmp0]
+Xi_lib__Measure: spill: execution time 0.000181
+Xi_lib__Measure: iteration: execution time 0.100069
+Mod_uwr__Regalloc: Starting iteration main-loop 1
+Xi_lib__Logger: Dumping 074.regalloc._I_main__i.begin-loop
+Xi_lib__Measure: init: execution time 0.000020
+Mod_uwr__Regalloc: Starting iteration build-coalescence 0
+Mod_uwr__Regalloc: building interference graph
+Xi_lib__Logger: Dumping 075.regalloc._I_main__i.before-inf-build.lva.xdot
+Xi_lib__Logger: Dumping 076.regalloc._I_main__i.before-simplify.infg.xdot
+Xi_lib__Measure: build: execution time 0.036471
+Mod_uwr__Regcoalescing: merging %tmp29 %hard4
+Mod_uwr__Regcoalescing: merging %tmp30 %hard4
+Mod_uwr__Regcoalescing: merging %tmp19 %hard2
+Xi_lib__Logger: Dumping 077.regalloc._I_main__i.coalescence
+Xi_lib__Measure: coalescence: execution time 0.006676
+Xi_lib__Measure: iteration: execution time 0.043339
+Mod_uwr__Regalloc: Starting iteration build-coalescence 1
+Mod_uwr__Regalloc: building interference graph
+Xi_lib__Logger: Dumping 078.regalloc._I_main__i.before-inf-build.lva.xdot
+Xi_lib__Logger: Dumping 079.regalloc._I_main__i.before-simplify.infg.xdot
+Xi_lib__Measure: build: execution time 0.037518
+Xi_lib__Logger: Dumping 080.regalloc._I_main__i.coalescence
+Xi_lib__Measure: coalescence: execution time 0.005632
+Xi_lib__Measure: iteration: execution time 0.043323
+Xi_lib__Measure: build-coalescence : execution time 0.086849
+Mod_uwr__Regalloc: Computing dominators
+Mod_uwr__Regalloc: Computing natural-loops
+Mod_uwr__Regalloc: Computing spill-costs
+Xi_lib__Logger: Dumping 081.regalloc._I_main__i.spill_costs
+Xi_lib__Measure: spillcosts: execution time 0.004649
+Mod_uwr__Regalloc: Stacking register %tmp20 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp11 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp21 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp12 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp22 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp13 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp23 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp14 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp24 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp15 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp25 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp16 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp26 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp17 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp27 of degree 8
+Mod_uwr__Regalloc: Stacking register %tmp18 of degree 9
+Mod_uwr__Regalloc: Stacking register %tmp28 of degree 8
+Mod_uwr__Regalloc: No more temporary registers in interference-graph
+Xi_lib__Measure: simplify: execution time 0.002247
+Mod_uwr__Regalloc: Picking color for %tmp28
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp18
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp27
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp17
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp26
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp16
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp25
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp15
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp24
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp14
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp23
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp13
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp22
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp12
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp21
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Mod_uwr__Regalloc: Picking color for %tmp11
+Mod_uwr__Regalloc: Neighbours have colors: 0 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 1
+Mod_uwr__Regalloc: Picking color for %tmp20
+Mod_uwr__Regalloc: Neighbours have colors: 17 18 19 20 21 22 23 24
+Mod_uwr__Regalloc: Selected color is 0
+Xi_lib__Measure: select: execution time 0.002450
+Mod_uwr__Regalloc: Actual spills: []
+Xi_lib__Measure: spill: execution time 0.000174
+Xi_lib__Measure: iteration: execution time 0.102558
+Xi_lib__Logger: Dumping 082.regalloc._I_main__i.regmapping
+Xi_lib__Measure: regalloc: execution time 0.209190
+Xi_lib__Logger: Dumping 083.regalloc._I_main__i.final.irproc

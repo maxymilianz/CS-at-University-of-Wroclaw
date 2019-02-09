@@ -1,0 +1,31 @@
+digraph CFG {
+node [shape=none; fontname="Courier" fontsize="9"];
+ordering=out;
+NL6[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L6</b></td></tr><tr><td colspan='3'>[%tmp1, %tmp2, %tmp4]</td></tr><tr><td>[%tmp1, %tmp2, %tmp4]</td><td bgcolor='green' ><b>branch gt, %tmp4, 0, L8, L7</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td colspan='3' port='x'>[%tmp1, %tmp2]</td></tr></table>>];
+NL3[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L3</b></td></tr><tr><td colspan='3'>[%tmp1, %tmp2]</td></tr><tr><td>[%tmp1, %tmp2]</td><td bgcolor='green' ><b>branch lt, %tmp1, %tmp2, L5, L4</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td colspan='3' port='x'>[%tmp1, %tmp2]</td></tr></table>>];
+NL1[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>EXIT L1</b></td></tr><tr><td colspan='3'>[]</td></tr><tr><td colspan='3' port='x'>[]</td></tr></table>>];
+NL8[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L8</b></td></tr><tr><td colspan='3'>[]</td></tr><tr><td>[]</td><td bgcolor='green' ><b>return []</b></td><td>[]</td></tr><tr><td colspan='3' port='x'>[]</td></tr></table>>];
+NL7[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L7</b></td></tr><tr><td colspan='3'>[%tmp1, %tmp2]</td></tr><tr><td>[%tmp1, %tmp2]</td><td align='left'><b>add %tmp14, %tmp1, 1</b></td><td>[%tmp2, %tmp14]</td></tr><tr><td>[%tmp2, %tmp14]</td><td align='left'><b>move %tmp1, %tmp14</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td>[%tmp1, %tmp2]</td><td bgcolor='green' ><b>jump L3</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td colspan='3' port='x'>[%tmp1, %tmp2]</td></tr></table>>];
+NL10[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L10</b></td></tr><tr><td colspan='3'>[]</td></tr><tr><td>[]</td><td bgcolor='green' ><b>return []</b></td><td>[]</td></tr><tr><td colspan='3' port='x'>[]</td></tr></table>>];
+NL2[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L2</b></td></tr><tr><td colspan='3'>[%tmp0]</td></tr><tr><td>[%tmp0]</td><td align='left'><b>move %tmp1, 0</b></td><td>[%tmp0, %tmp1]</td></tr><tr><td>[%tmp0, %tmp1]</td><td align='left'><b>loadmem %tmp2, %tmp0, -4 // %tmp2 = mem[%tmp0 + -4]</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td>[%tmp1, %tmp2]</td><td align='left'><b>move %tmp3, %tmp2</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td>[%tmp1, %tmp2]</td><td bgcolor='green' ><b>jump L3</b></td><td>[%tmp1, %tmp2]</td></tr><tr><td colspan='3' port='x'>[%tmp1, %tmp2]</td></tr></table>>];
+NL11[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L11</b></td></tr><tr><td colspan='3'>[]</td></tr><tr><td>[]</td><td bgcolor='green' ><b>return []</b></td><td>[]</td></tr><tr><td colspan='3' port='x'>[]</td></tr></table>>];
+NL9[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L9</b></td></tr><tr><td colspan='3'>[%tmp1, %tmp2, %tmp4]</td></tr><tr><td>[%tmp1, %tmp2, %tmp4]</td><td align='left'><b>sub %tmp13, %tmp4, 1</b></td><td>[%tmp1, %tmp2, %tmp13]</td></tr><tr><td>[%tmp1, %tmp2, %tmp13]</td><td align='left'><b>move %tmp4, %tmp13</b></td><td>[%tmp1, %tmp2, %tmp4]</td></tr><tr><td>[%tmp1, %tmp2, %tmp4]</td><td bgcolor='green' ><b>jump L6</b></td><td>[%tmp1, %tmp2, %tmp4]</td></tr><tr><td colspan='3' port='x'>[%tmp1, %tmp2, %tmp4]</td></tr></table>>];
+NL4[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L4</b></td></tr><tr><td colspan='3'>[]</td></tr><tr><td>[]</td><td bgcolor='green' ><b>return []</b></td><td>[]</td></tr><tr><td colspan='3' port='x'>[]</td></tr></table>>];
+NL5[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>BLOCK L5</b></td></tr><tr><td colspan='3'>[%tmp1, %tmp2]</td></tr><tr><td>[%tmp1, %tmp2]</td><td align='left'><b>move %tmp4, %tmp1</b></td><td>[%tmp1, %tmp2, %tmp4]</td></tr><tr><td>[%tmp1, %tmp2, %tmp4]</td><td bgcolor='green' ><b>jump L6</b></td><td>[%tmp1, %tmp2, %tmp4]</td></tr><tr><td colspan='3' port='x'>[%tmp1, %tmp2, %tmp4]</td></tr></table>>];
+NL0[shape=none, margin=0, label=<<table cellspacing='0' cellborder='1' align='left' border='0'><tr><td colspan='3' port='e' bgcolor='yellow'><b>ENTRY L0</b></td></tr><tr><td colspan='3'>[%tmp0]</td></tr><tr><td colspan='3' port='x'>[%tmp0]</td></tr></table>>];
+NL6:x -> NL7:e;
+NL6:x -> NL8:e;
+NL3:x -> NL4:e;
+NL3:x -> NL5:e;
+
+NL8:x -> NL9:e;
+NL8:x -> NL11:e;
+NL7:x -> NL3:e;
+NL10:x -> NL9:e;
+NL2:x -> NL3:e;
+NL11:x -> NL9:e;
+NL9:x -> NL6:e;
+NL4:x -> NL1:e;
+NL5:x -> NL6:e;
+NL0:x -> NL2:e;
+}

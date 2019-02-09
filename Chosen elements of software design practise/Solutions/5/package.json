@@ -1,0 +1,8 @@
+{
+  "name": "5",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "latest"
+  }
+}

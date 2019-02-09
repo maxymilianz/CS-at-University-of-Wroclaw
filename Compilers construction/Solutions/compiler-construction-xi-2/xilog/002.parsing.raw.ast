@@ -1,0 +1,58 @@
+ModuleDefinition [
+   GDECL_Function {
+      loc = 000_without_expectation_concat_second_magic.xi:1:1;
+      id = "test";
+      formal_parameters = [
+            ];
+      return_types = [
+            TEXPR_Int {
+               loc = 000_without_expectation_concat_second_magic.xi:1:8;
+               };
+            ];
+      body = Some STMTBlock {
+            loc = 000_without_expectation_concat_second_magic.xi:2:1;
+            body = [
+                  STMT_Return {
+                     loc = 000_without_expectation_concat_second_magic.xi:3:5;
+                     values = [
+                           EXPR_Length {
+                              loc = 000_without_expectation_concat_second_magic.xi:3:12;
+                              tag = %node6;
+                              arg = EXPR_Binop {
+                                    loc = 000_without_expectation_concat_second_magic.xi:3:19;
+                                    tag = %node5;
+                                    op = BINOP_Add;
+                                    lhs = EXPR_Struct {
+                                          loc = 000_without_expectation_concat_second_magic.xi:3:19;
+                                          tag = %node1;
+                                          elements = [
+                                                EXPR_Bool {
+                                                   loc = 000_without_expectation_concat_second_magic.xi:3:20;
+                                                   tag = %node0;
+                                                   value = true;
+                                                   };
+                                                ];
+                                          };
+                                    rhs = EXPR_Index {
+                                          loc = 000_without_expectation_concat_second_magic.xi:3:28;
+                                          tag = %node4;
+                                          expr = EXPR_Struct {
+                                                loc = 000_without_expectation_concat_second_magic.xi:3:28;
+                                                tag = %node2;
+                                                elements = [
+                                                      ];
+                                                };
+                                          index = EXPR_Int {
+                                                loc = 000_without_expectation_concat_second_magic.xi:3:31;
+                                                tag = %node3;
+                                                value = 0;
+                                                };
+                                          };
+                                    };
+                              };
+                           ];
+                     };
+                  ];
+            };
+      };
+   ]

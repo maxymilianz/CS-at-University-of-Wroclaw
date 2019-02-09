@@ -1,0 +1,49 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 1
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    def [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    move %hard4, 32
+    call [%hard2], _xi_alloc, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    storevar 0, %hard2
+    loadvar %hard1, 0
+    add %hard1, %hard1, 4
+    storevar 0, %hard1
+    move %hard2, 7
+    loadvar %hard1, 0
+    storemem %hard1, -4, %hard2 // mem[%hard1 + -4] = %hard2
+    move %hard2, 87
+    loadvar %hard1, 0
+    storemem %hard1, 0, %hard2 // mem[%hard1 + 0] = %hard2
+    move %hard2, 114
+    loadvar %hard1, 0
+    storemem %hard1, 4, %hard2 // mem[%hard1 + 4] = %hard2
+    move %hard2, 111
+    loadvar %hard1, 0
+    storemem %hard1, 8, %hard2 // mem[%hard1 + 8] = %hard2
+    move %hard2, 99
+    loadvar %hard1, 0
+    storemem %hard1, 12, %hard2 // mem[%hard1 + 12] = %hard2
+    move %hard2, 108
+    loadvar %hard1, 0
+    storemem %hard1, 16, %hard2 // mem[%hard1 + 16] = %hard2
+    move %hard2, 97
+    loadvar %hard1, 0
+    storemem %hard1, 20, %hard2 // mem[%hard1 + 20] = %hard2
+    move %hard2, 119
+    loadvar %hard1, 0
+    storemem %hard1, 24, %hard2 // mem[%hard1 + 24] = %hard2
+    loadvar %hard4, 0
+    call [], _I_sort_ai_, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    loadvar %hard4, 0
+    call [], _I_printString_ai_, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %hard2, 1
+    use [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    return [%hard2]

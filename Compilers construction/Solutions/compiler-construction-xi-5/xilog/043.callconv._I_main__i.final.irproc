@@ -1,0 +1,47 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 0
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    def [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    move %tmp3, %hard16
+    move %tmp4, %hard17
+    move %tmp5, %hard18
+    move %tmp6, %hard19
+    move %tmp7, %hard20
+    move %tmp8, %hard21
+    move %tmp9, %hard22
+    move %tmp10, %hard23
+    move %hard4, 32
+    call [%hard2], _xi_alloc, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %tmp0, %hard2
+    add %tmp0, %tmp0, 4
+    storemem %tmp0, -4, 7 // mem[%tmp0 + -4] = 7
+    storemem %tmp0, 0, 87 // mem[%tmp0 + 0] = 87
+    storemem %tmp0, 4, 114 // mem[%tmp0 + 4] = 114
+    storemem %tmp0, 8, 111 // mem[%tmp0 + 8] = 111
+    storemem %tmp0, 12, 99 // mem[%tmp0 + 12] = 99
+    storemem %tmp0, 16, 108 // mem[%tmp0 + 16] = 108
+    storemem %tmp0, 20, 97 // mem[%tmp0 + 20] = 97
+    storemem %tmp0, 24, 119 // mem[%tmp0 + 24] = 119
+    move %hard4, %tmp0
+    call [], _I_sort_ai_, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %hard4, %tmp0
+    call [], _I_printString_ai_, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %hard2, 1
+    move %hard23, %tmp10
+    move %hard22, %tmp9
+    move %hard21, %tmp8
+    move %hard20, %tmp7
+    move %hard19, %tmp6
+    move %hard18, %tmp5
+    move %hard17, %tmp4
+    move %hard16, %tmp3
+    use [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    return [%hard2]

@@ -1,0 +1,81 @@
+Mod_uwr__Typechecker: 01_sort.xi:4:11: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:4:11: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:5:11: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:5:18: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:5:11: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:7:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:7:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:10:24: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:10:26: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:10:26: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:10:24: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:10:24: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:11:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:11:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:11:13: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:11:20: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:11:22: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:11:22: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:11:22: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:11:24: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:11:24: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:11:22: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:11:20: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:11:20: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:12:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:12:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:12:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:12:17: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:12:17: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:12:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:12:13: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:12:22: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:12:22: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:9:13: checking expression against bool
+Mod_uwr__Typechecker: 01_sort.xi:9:13: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:9:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:9:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:9:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:9:17: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:9:17: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:9:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:9:13: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:9:13: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:9:22: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:9:24: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:9:24: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:9:22: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:9:22: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:9:13: inferred type bool
+Mod_uwr__Typechecker: 01_sort.xi:14:13: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:14:13: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:14:13: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:14:15: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:14:15: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:14:13: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:8:14: checking expression against bool
+Mod_uwr__Typechecker: 01_sort.xi:8:14: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:8:14: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:8:18: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:8:18: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:8:14: inferred type bool
+Mod_uwr__Typechecker: 01_sort.xi:16:11: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:16:11: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:16:11: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:16:13: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:16:13: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:6:10: checking expression against bool
+Mod_uwr__Typechecker: 01_sort.xi:6:10: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:6:10: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:6:14: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:6:14: inferred type int
+Mod_uwr__Typechecker: 01_sort.xi:6:10: inferred type bool
+Mod_uwr__Typechecker: 01_sort.xi:23:15: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:23:15: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:24:10: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:24:10: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:25:17: checking expression against int[]
+Mod_uwr__Typechecker: 01_sort.xi:25:17: inferred type int[]
+Mod_uwr__Typechecker: 01_sort.xi:26:12: checking expression against int
+Mod_uwr__Typechecker: 01_sort.xi:26:12: inferred type int
+Xi_lib__Logger: Dumping 004.typechecking.types

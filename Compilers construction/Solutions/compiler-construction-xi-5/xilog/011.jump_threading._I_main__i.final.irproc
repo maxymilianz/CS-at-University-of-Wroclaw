@@ -1,0 +1,28 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 0
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2, L3]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    newarray %tmp0, 7
+    storearray %tmp0, 0, 87 // %tmp0[0] = 87
+    storearray %tmp0, 1, 114 // %tmp0[1] = 114
+    storearray %tmp0, 2, 111 // %tmp0[2] = 111
+    storearray %tmp0, 3, 99 // %tmp0[3] = 99
+    storearray %tmp0, 4, 108 // %tmp0[4] = 108
+    storearray %tmp0, 5, 97 // %tmp0[5] = 97
+    storearray %tmp0, 6, 119 // %tmp0[6] = 119
+    move %tmp1, %tmp0
+    call [], _I_sort_ai_, [%tmp1], kill []
+    call [], _I_printString_ai_, [%tmp1], kill []
+    return [1]
+L3:
+    cfg successors: [L1]
+    cfg predecessors: []
+
+    return []

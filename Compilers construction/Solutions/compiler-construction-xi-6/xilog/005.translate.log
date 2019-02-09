@@ -1,0 +1,136 @@
+Mod_uwr__Translator: Environment.add_proc: added mapping printInt -> _I_printInt_i_
+Mod_uwr__Translator: Environment.add_proc: added mapping sumtab -> _I_sumtab_ai_i
+Mod_uwr__Translator: Environment.add_proc: added mapping main -> _I_main__i
+Mod_uwr__Translator: translate_global_definition: =========== 00_sum.xi:3:1 - sumtab
+Mod_uwr__Translator: Environment.add_var: added mapping xs -> %tmp0
+Mod_uwr__Translator: allocate_block: new block is L2
+Mod_uwr__Translator: translate_block: >>> 00_sum.xi:3:22: -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:4:5: sum:int = 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:4:15: 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:4:15: 0 - current_bb=L2 res=0
+Mod_uwr__Translator: Environment.add_var: added mapping sum -> %tmp1
+Mod_uwr__Translator: append_instruction: block=L2: move %tmp1, 0
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:4:5: sum:int = 0 -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:5:5: i:int = 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:5:13: 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:5:13: 0 - current_bb=L2 res=0
+Mod_uwr__Translator: Environment.add_var: added mapping i -> %tmp2
+Mod_uwr__Translator: append_instruction: block=L2: move %tmp2, 0
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:5:5: i:int = 0 -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:6:5: n:int = length(xs) -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:6:13: length(xs) -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:6:20: xs -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:6:20: xs - current_bb=L2 res=%tmp0
+Mod_uwr__Translator: append_instruction: block=L2: length %tmp3, %tmp0
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:6:13: length(xs) - current_bb=L2 res=%tmp3
+Mod_uwr__Translator: Environment.add_var: added mapping n -> %tmp4
+Mod_uwr__Translator: append_instruction: block=L2: move %tmp4, %tmp3
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:6:5: n:int = length(xs) -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:7:5: while ( (i < n) );{;  sum = (sum + xs[i]);  i = (i + 1);} -- current_bb=L2
+Mod_uwr__Translator: allocate_block: new block is L3
+Mod_uwr__Translator: set_terminator: block=L2: jump L3
+Mod_uwr__Translator: allocate_block: new block is L4
+Mod_uwr__Translator: translate_condition: >>> 00_sum.xi:7:12: (i < n) -- current_bb=L3 alt_bb=L4
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:7:12: i -- current_bb=L3
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:7:12: i - current_bb=L3 res=%tmp2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:7:16: n -- current_bb=L3
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:7:16: n - current_bb=L3 res=%tmp4
+Mod_uwr__Translator: allocate_block: new block is L5
+Mod_uwr__Translator: set_terminator: block=L3: branch lt, %tmp2, %tmp4, L5, L4
+Mod_uwr__Translator: translate_condition: <<< 00_sum.xi:7:12: (i < n) - current_bb=L5
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:7:19: {;  sum = (sum + xs[i]);  i = (i + 1);} -- current_bb=L5
+Mod_uwr__Translator: translate_block: >>> 00_sum.xi:7:19: -- current_bb=L5
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:8:9: sum = (sum + xs[i]) -- current_bb=L5
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:8:15: (sum + xs[i]) -- current_bb=L5
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:8:15: sum -- current_bb=L5
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:8:15: sum - current_bb=L5 res=%tmp1
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:8:21: xs[i] -- current_bb=L5
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:8:24: i -- current_bb=L5
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:8:24: i - current_bb=L5 res=%tmp2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:8:21: xs -- current_bb=L5
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:8:21: xs - current_bb=L5 res=%tmp0
+Mod_uwr__Translator: append_instruction: block=L5: loadarray %tmp5, %tmp0, %tmp2 // %tmp5 = %tmp0[%tmp2]
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:8:21: xs[i] - current_bb=L5 res=%tmp5
+Mod_uwr__Translator: append_instruction: block=L5: add %tmp6, %tmp1, %tmp5
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:8:15: (sum + xs[i]) - current_bb=L5 res=%tmp6
+Mod_uwr__Translator: store_to_lvalue: storing %tmp6 to sum -- current_bb=L5
+Mod_uwr__Translator: append_instruction: block=L5: move %tmp1, %tmp6
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:8:9: sum = (sum + xs[i]) -- current_bb=L5
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:9:9: i = (i + 1) -- current_bb=L5
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:9:13: (i + 1) -- current_bb=L5
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:9:13: i -- current_bb=L5
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:9:13: i - current_bb=L5 res=%tmp2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:9:17: 1 -- current_bb=L5
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:9:17: 1 - current_bb=L5 res=1
+Mod_uwr__Translator: append_instruction: block=L5: add %tmp7, %tmp2, 1
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:9:13: (i + 1) - current_bb=L5 res=%tmp7
+Mod_uwr__Translator: store_to_lvalue: storing %tmp7 to i -- current_bb=L5
+Mod_uwr__Translator: append_instruction: block=L5: move %tmp2, %tmp7
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:9:9: i = (i + 1) -- current_bb=L5
+Mod_uwr__Translator: translate_block: <<< 00_sum.xi:7:19: -- current_bb=L5
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:7:19: {;  sum = (sum + xs[i]);  i = (i + 1);} -- current_bb=L5
+Mod_uwr__Translator: set_terminator: block=L5: jump L3
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:7:5: while ( (i < n) );{;  sum = (sum + xs[i]);  i = (i + 1);} -- current_bb=L4
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:11:5: return sum -- current_bb=L4
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:11:12: sum -- current_bb=L4
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:11:12: sum - current_bb=L4 res=%tmp1
+Mod_uwr__Translator: set_terminator: block=L4: return [%tmp1]
+Mod_uwr__Translator: allocate_block: new block is L6
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:11:5: return sum -- current_bb=L6
+Mod_uwr__Translator: translate_block: <<< 00_sum.xi:3:22: -- current_bb=L6
+Mod_uwr__Translator: translate_global_definition: =========== 00_sum.xi:14:1 - main
+Mod_uwr__Translator: allocate_block: new block is L2
+Mod_uwr__Translator: translate_block: >>> 00_sum.xi:15:1: -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:16:5: xs:int[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:16: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} -- current_bb=L2
+Mod_uwr__Translator: append_instruction: block=L2: newarray %tmp0, 10
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:18: 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:18: 0 - current_bb=L2 res=0
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 0, 0 // %tmp0[0] = 0
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:21: 1 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:21: 1 - current_bb=L2 res=1
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 1, 1 // %tmp0[1] = 1
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:24: 2 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:24: 2 - current_bb=L2 res=2
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 2, 2 // %tmp0[2] = 2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:27: 3 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:27: 3 - current_bb=L2 res=3
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 3, 3 // %tmp0[3] = 3
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:30: 4 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:30: 4 - current_bb=L2 res=4
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 4, 4 // %tmp0[4] = 4
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:33: 5 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:33: 5 - current_bb=L2 res=5
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 5, 5 // %tmp0[5] = 5
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:36: 6 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:36: 6 - current_bb=L2 res=6
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 6, 6 // %tmp0[6] = 6
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:39: 7 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:39: 7 - current_bb=L2 res=7
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 7, 7 // %tmp0[7] = 7
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:42: 8 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:42: 8 - current_bb=L2 res=8
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 8, 8 // %tmp0[8] = 8
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:16:45: 9 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:45: 9 - current_bb=L2 res=9
+Mod_uwr__Translator: append_instruction: block=L2: storearray %tmp0, 9, 9 // %tmp0[9] = 9
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:16:16: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} - current_bb=L2 res=%tmp0
+Mod_uwr__Translator: Environment.add_var: added mapping xs -> %tmp1
+Mod_uwr__Translator: append_instruction: block=L2: move %tmp1, %tmp0
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:16:5: xs:int[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:17:5: printInt(sumtab(xs)) -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:17:14: sumtab(xs) -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:17:21: xs -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:17:21: xs - current_bb=L2 res=%tmp1
+Mod_uwr__Translator: append_instruction: block=L2: call [%tmp2], _I_sumtab_ai_i, [%tmp1], kill []
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:17:14: sumtab(xs) - current_bb=L2 res=%tmp2
+Mod_uwr__Translator: append_instruction: block=L2: call [], _I_printInt_i_, [%tmp2], kill []
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:17:5: printInt(sumtab(xs)) -- current_bb=L2
+Mod_uwr__Translator: translate_statement: >>> 00_sum.xi:18:5: return 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: >>> 00_sum.xi:18:12: 0 -- current_bb=L2
+Mod_uwr__Translator: translate_expression: <<< 00_sum.xi:18:12: 0 - current_bb=L2 res=0
+Mod_uwr__Translator: set_terminator: block=L2: return [0]
+Mod_uwr__Translator: allocate_block: new block is L3
+Mod_uwr__Translator: translate_statement: <<< 00_sum.xi:18:5: return 0 -- current_bb=L3
+Mod_uwr__Translator: translate_block: <<< 00_sum.xi:15:1: -- current_bb=L3
+Xi_lib__Logger: Dumping 006.translate.translated.ir

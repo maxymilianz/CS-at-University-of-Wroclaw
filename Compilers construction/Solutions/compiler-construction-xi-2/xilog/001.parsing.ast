@@ -1,0 +1,5 @@
+test(): int
+{
+  return length(({true} + {}[0]))
+}
+

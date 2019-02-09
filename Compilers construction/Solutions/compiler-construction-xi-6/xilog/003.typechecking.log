@@ -1,0 +1,56 @@
+Mod_uwr__Typechecker: 00_sum.xi:4:15: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:4:15: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:5:13: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:5:13: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:6:13: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:6:20: inferred type int[]
+Mod_uwr__Typechecker: 00_sum.xi:6:13: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:8:15: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:8:15: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:8:15: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:8:21: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:8:24: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:8:24: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:8:21: checking expression against int[]
+Mod_uwr__Typechecker: 00_sum.xi:8:21: inferred type int[]
+Mod_uwr__Typechecker: 00_sum.xi:9:13: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:9:13: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:9:13: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:9:17: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:9:17: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:7:12: checking expression against bool
+Mod_uwr__Typechecker: 00_sum.xi:7:12: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:7:12: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:7:16: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:7:16: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:7:12: inferred type bool
+Mod_uwr__Typechecker: 00_sum.xi:11:12: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:11:12: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:16: checking expression against int[]
+Mod_uwr__Typechecker: 00_sum.xi:16:18: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:18: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:21: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:21: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:24: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:24: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:27: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:27: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:30: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:30: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:33: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:33: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:36: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:36: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:39: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:39: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:42: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:42: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:16:45: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:16:45: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:17:14: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:17:21: checking expression against int[]
+Mod_uwr__Typechecker: 00_sum.xi:17:21: inferred type int[]
+Mod_uwr__Typechecker: 00_sum.xi:17:14: inferred type int
+Mod_uwr__Typechecker: 00_sum.xi:18:12: checking expression against int
+Mod_uwr__Typechecker: 00_sum.xi:18:12: inferred type int
+Xi_lib__Logger: Dumping 004.typechecking.types

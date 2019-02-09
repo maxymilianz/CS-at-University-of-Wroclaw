@@ -1,0 +1,23 @@
+Mod_uwr__Regalloc: Starting register-allocation
+Mod_uwr__Regalloc: Starting iteration main-loop 0
+Xi_lib__Measure: init: execution time 0.000007
+Mod_uwr__Regalloc: Starting iteration build-coalescence 0
+Mod_uwr__Regalloc: building interference graph
+Xi_lib__Measure: build: execution time 0.001867
+Xi_lib__Measure: coalescence: execution time 0.002450
+Xi_lib__Measure: iteration: execution time 0.004410
+Mod_uwr__Regalloc: Starting iteration build-coalescence 1
+Mod_uwr__Regalloc: building interference graph
+Xi_lib__Measure: build: execution time 0.001607
+Xi_lib__Measure: coalescence: execution time 0.000094
+Xi_lib__Measure: iteration: execution time 0.001954
+Xi_lib__Measure: build-coalescence : execution time 0.006469
+Xi_lib__Measure: spillcosts: execution time 0.000187
+Xi_lib__Measure: simplify: execution time 0.000932
+Xi_lib__Measure: select: execution time 0.000083
+Mod_uwr__Regalloc: Actual spills: []
+Xi_lib__Measure: spill: execution time 0.000081
+Xi_lib__Measure: iteration: execution time 0.007949
+Xi_lib__Logger: Dumping 039.regalloc._I_main__i.regmapping
+Xi_lib__Measure: regalloc: execution time 0.012382
+Xi_lib__Logger: Dumping 040.regalloc._I_main__i.final.irproc

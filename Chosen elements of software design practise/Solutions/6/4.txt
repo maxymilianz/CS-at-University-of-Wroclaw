@@ -1,0 +1,10 @@
+Injection - chyba nie dotyczy aplikacji, które budujemy.
+Broken Authentication - chyba nie dotyczy, bo nie robimy jeszcze autentykacji.
+Sensitive Data Exposure - chyba nie dotyczy, bo nie używamy danych wrażliwych.
+XML External Entities (XXE) - chyba nie, bo brak XMLa.
+Broken Access Control - chyba nie, bo brak autentykacji.
+Security Misconfiguration - może dotyczy, bo nie konfigurujemy jakoś specjalnie.
+Cross-Site Scripting (XSS) - dotyczy, bo bierzemy dane od użytkownika.
+Insecure Deserialization - nie dotyczy, bo brak deserializacji.
+Using Components with Known Vulnerabilities - chyba nie dotyczy - chyba express nie ma żadnych podatności.
+Insufficient Logging&Monitoring - chyba nie dotyczy.

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Generator deklaracji</title>
+</head>
+<body>
+<% if (no_name) { %>
+    Podaj imię!
+<% } %>
+<% if (no_surname) { %>
+    Podaj nazwisko!
+<% } %>
+<% if (no_subject) { %>
+    Podaj przedmiot!
+<% } %>
+<form method="POST">
+    <table>
+        <tr>
+            <th>
+                Imię:
+            </th>
+            <th>
+                <input type='text' name='name' size='4'/>
+            </th>
+            <th>
+
+            </th>
+            <th>
+                Nazwisko:
+            </th>
+            <th>
+                <input type='text' name='surname' size='4'/>
+            </th>
+            <th>
+
+            </th>
+            <th>
+                Przedmiot:
+            </th>
+            <th>
+                <input type='text' name='subject' size='4'/>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                1
+            </th>
+            <th>
+                2
+            </th>
+            <th>
+                3
+            </th>
+            <th>
+                4
+            </th>
+            <th>
+                5
+            </th>
+            <th>
+                6
+            </th>
+            <th>
+                7
+            </th>
+            <th>
+                8
+            </th>
+            <th>
+                9
+            </th>
+            <th>
+                10
+            </th>
+        </tr>
+        <tr>
+            <% for ( var i=0; i<10; i++ ){ %>
+                <th>
+                    <input name="excercise<%= i%>" />
+                </th>
+            <% } %>
+            <th>
+                <input type='text' name='exercise1' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise2' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise3' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise4' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise5' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise6' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise7' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise8' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise9' size='4'/>
+            </th>
+            <th>
+                <input type='text' name='exercise10' size='4'/>
+            </th>
+        </tr>
+    </table>
+    <button>Utwórz deklarację</button>
+</form>
+</body>
+</html>

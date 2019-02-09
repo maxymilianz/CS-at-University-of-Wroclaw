@@ -1,0 +1,76 @@
+////////////////////////////////////// 
+procedure _I_sort_ai_
+    frame size: 0
+    formal parameters: 1
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L4]
+L2:
+    cfg successors: [L3]
+    cfg predecessors: [L0]
+    move %tmp1, 0
+    loadmem %tmp2, %tmp0, -4 // %tmp2 = mem[%tmp0 + -4]
+    move %tmp3, %tmp2
+    jump L3
+L3:
+    cfg successors: [L4, L5]
+    cfg predecessors: [L2, L7]
+
+    branch lt, %tmp1, %tmp3, L5, L4
+L4:
+    cfg successors: [L1]
+    cfg predecessors: [L3]
+
+    return []
+L5:
+    cfg successors: [L6]
+    cfg predecessors: [L3]
+    move %tmp4, %tmp1
+    jump L6
+L6:
+    cfg successors: [L7, L8]
+    cfg predecessors: [L5, L9]
+
+    branch gt, %tmp4, 0, L8, L7
+L7:
+    cfg successors: [L3]
+    cfg predecessors: [L6]
+    add %tmp14, %tmp1, 1
+    move %tmp1, %tmp14
+    jump L3
+L8:
+    cfg successors: [L9, L11]
+    cfg predecessors: [L6]
+    sub %tmp5, %tmp4, 1
+    mul %tmp15, %tmp5, 4
+    loadmem %tmp6, %tmp0, %tmp15 // %tmp6 = mem[%tmp0 + %tmp15]
+    mul %tmp16, %tmp4, 4
+    loadmem %tmp7, %tmp0, %tmp16 // %tmp7 = mem[%tmp0 + %tmp16]
+    branch gt, %tmp6, %tmp7, L11, L9
+L9:
+    cfg successors: [L6]
+    cfg predecessors: [L8, L10, L11]
+    sub %tmp13, %tmp4, 1
+    move %tmp4, %tmp13
+    jump L6
+L10:
+    cfg successors: [L9]
+    cfg predecessors: []
+
+    jump L9
+L11:
+    cfg successors: [L9]
+    cfg predecessors: [L8]
+    mul %tmp17, %tmp4, 4
+    loadmem %tmp8, %tmp0, %tmp17 // %tmp8 = mem[%tmp0 + %tmp17]
+    move %tmp9, %tmp8
+    sub %tmp10, %tmp4, 1
+    mul %tmp18, %tmp10, 4
+    loadmem %tmp11, %tmp0, %tmp18 // %tmp11 = mem[%tmp0 + %tmp18]
+    mul %tmp19, %tmp4, 4
+    storemem %tmp0, %tmp19, %tmp11 // mem[%tmp0 + %tmp19] = %tmp11
+    sub %tmp12, %tmp4, 1
+    mul %tmp20, %tmp12, 4
+    storemem %tmp0, %tmp20, %tmp9 // mem[%tmp0 + %tmp20] = %tmp9
+    jump L9

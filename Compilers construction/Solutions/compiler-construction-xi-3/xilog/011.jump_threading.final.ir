@@ -1,0 +1,49 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 0
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2, L3]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    mul %tmp1, 2, 1
+    mul %tmp2, 3, %tmp1
+    newarray %tmp0, %tmp2
+    loadarray %tmp3, %tmp0, 0 // %tmp3 = %tmp0[0]
+    storearray %tmp3, 0, 1 // %tmp3[0] = 1
+    loadarray %tmp4, %tmp0, 0 // %tmp4 = %tmp0[0]
+    storearray %tmp4, 1, 2 // %tmp4[1] = 2
+    loadarray %tmp5, %tmp0, 0 // %tmp5 = %tmp0[0]
+    storearray %tmp5, 2, 3 // %tmp5[2] = 3
+    loadarray %tmp6, %tmp0, 1 // %tmp6 = %tmp0[1]
+    storearray %tmp6, 0, 10 // %tmp6[0] = 10
+    loadarray %tmp7, %tmp0, 1 // %tmp7 = %tmp0[1]
+    storearray %tmp7, 1, 20 // %tmp7[1] = 20
+    loadarray %tmp8, %tmp0, 1 // %tmp8 = %tmp0[1]
+    storearray %tmp8, 2, 30 // %tmp8[2] = 30
+    loadarray %tmp9, %tmp0, 0 // %tmp9 = %tmp0[0]
+    loadarray %tmp10, %tmp9, 0 // %tmp10 = %tmp9[0]
+    loadarray %tmp11, %tmp0, 0 // %tmp11 = %tmp0[0]
+    loadarray %tmp12, %tmp11, 1 // %tmp12 = %tmp11[1]
+    add %tmp13, %tmp10, %tmp12
+    loadarray %tmp14, %tmp0, 0 // %tmp14 = %tmp0[0]
+    loadarray %tmp15, %tmp14, 2 // %tmp15 = %tmp14[2]
+    add %tmp16, %tmp13, %tmp15
+    loadarray %tmp17, %tmp0, 1 // %tmp17 = %tmp0[1]
+    loadarray %tmp18, %tmp17, 0 // %tmp18 = %tmp17[0]
+    add %tmp19, %tmp16, %tmp18
+    loadarray %tmp20, %tmp0, 1 // %tmp20 = %tmp0[1]
+    loadarray %tmp21, %tmp20, 1 // %tmp21 = %tmp20[1]
+    add %tmp22, %tmp19, %tmp21
+    loadarray %tmp23, %tmp0, 1 // %tmp23 = %tmp0[1]
+    loadarray %tmp24, %tmp23, 2 // %tmp24 = %tmp23[2]
+    add %tmp25, %tmp22, %tmp24
+    return [%tmp25]
+L3:
+    cfg successors: [L1]
+    cfg predecessors: []
+
+    return []

@@ -1,0 +1,291 @@
+ModuleDefinition [
+   GDECL_Function {
+      loc = 00_sum.xi:1:1;
+      id = "printInt";
+      formal_parameters = [
+            VarDecl {
+               loc = 00_sum.xi:1:10;
+               id = "x";
+               tp = TEXPR_Int {
+                     loc = 00_sum.xi:1:12;
+                     };
+               };
+            ];
+      return_types = [
+            ];
+      body = None;
+      };
+   GDECL_Function {
+      loc = 00_sum.xi:3:1;
+      id = "sumtab";
+      formal_parameters = [
+            VarDecl {
+               loc = 00_sum.xi:3:8;
+               id = "xs";
+               tp = TPEXPR_Array {
+                     loc = 00_sum.xi:3:11;
+                     sub = TEXPR_Int {
+                           loc = 00_sum.xi:3:11;
+                           };
+                     dim = None;
+                     };
+               };
+            ];
+      return_types = [
+            TEXPR_Int {
+               loc = 00_sum.xi:3:18;
+               };
+            ];
+      body = Some STMTBlock {
+            loc = 00_sum.xi:3:22;
+            body = [
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 00_sum.xi:4:5;
+                           id = "sum";
+                           tp = TEXPR_Int {
+                                 loc = 00_sum.xi:4:9;
+                                 };
+                           };
+                     init = Some EXPR_Int {
+                           loc = 00_sum.xi:4:15;
+                           tag = %node0;
+                           value = 0;
+                           };
+                     };
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 00_sum.xi:5:5;
+                           id = "i";
+                           tp = TEXPR_Int {
+                                 loc = 00_sum.xi:5:7;
+                                 };
+                           };
+                     init = Some EXPR_Int {
+                           loc = 00_sum.xi:5:13;
+                           tag = %node1;
+                           value = 0;
+                           };
+                     };
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 00_sum.xi:6:5;
+                           id = "n";
+                           tp = TEXPR_Int {
+                                 loc = 00_sum.xi:6:7;
+                                 };
+                           };
+                     init = Some EXPR_Length {
+                           loc = 00_sum.xi:6:13;
+                           tag = %node3;
+                           arg = EXPR_Id {
+                                 loc = 00_sum.xi:6:20;
+                                 tag = %node2;
+                                 id = "xs";
+                                 };
+                           };
+                     };
+                  STMT_While {
+                     loc = 00_sum.xi:7:5;
+                     cond = EXPR_Relation {
+                           loc = 00_sum.xi:7:12;
+                           tag = %node6;
+                           op = RELOP_Lt;
+                           lhs = EXPR_Id {
+                                 loc = 00_sum.xi:7:12;
+                                 tag = %node4;
+                                 id = "i";
+                                 };
+                           rhs = EXPR_Id {
+                                 loc = 00_sum.xi:7:16;
+                                 tag = %node5;
+                                 id = "n";
+                                 };
+                           };
+                     body = STMT_Block STMTBlock {
+                           loc = 00_sum.xi:7:19;
+                           body = [
+                                 STMT_Assign {
+                                    loc = 00_sum.xi:8:9;
+                                    lhs = LVALUE_Id {
+                                          loc = 00_sum.xi:8:9;
+                                          id = "sum";
+                                          };
+                                    rhs = EXPR_Binop {
+                                          loc = 00_sum.xi:8:15;
+                                          tag = %node11;
+                                          op = BINOP_Add;
+                                          lhs = EXPR_Id {
+                                                loc = 00_sum.xi:8:15;
+                                                tag = %node7;
+                                                id = "sum";
+                                                };
+                                          rhs = EXPR_Index {
+                                                loc = 00_sum.xi:8:21;
+                                                tag = %node10;
+                                                expr = EXPR_Id {
+                                                      loc = 00_sum.xi:8:21;
+                                                      tag = %node8;
+                                                      id = "xs";
+                                                      };
+                                                index = EXPR_Id {
+                                                      loc = 00_sum.xi:8:24;
+                                                      tag = %node9;
+                                                      id = "i";
+                                                      };
+                                                };
+                                          };
+                                    };
+                                 STMT_Assign {
+                                    loc = 00_sum.xi:9:9;
+                                    lhs = LVALUE_Id {
+                                          loc = 00_sum.xi:9:9;
+                                          id = "i";
+                                          };
+                                    rhs = EXPR_Binop {
+                                          loc = 00_sum.xi:9:13;
+                                          tag = %node14;
+                                          op = BINOP_Add;
+                                          lhs = EXPR_Id {
+                                                loc = 00_sum.xi:9:13;
+                                                tag = %node12;
+                                                id = "i";
+                                                };
+                                          rhs = EXPR_Int {
+                                                loc = 00_sum.xi:9:17;
+                                                tag = %node13;
+                                                value = 1;
+                                                };
+                                          };
+                                    };
+                                 ];
+                           };
+                     };
+                  STMT_Return {
+                     loc = 00_sum.xi:11:5;
+                     values = [
+                           EXPR_Id {
+                              loc = 00_sum.xi:11:12;
+                              tag = %node15;
+                              id = "sum";
+                              };
+                           ];
+                     };
+                  ];
+            };
+      };
+   GDECL_Function {
+      loc = 00_sum.xi:14:1;
+      id = "main";
+      formal_parameters = [
+            ];
+      return_types = [
+            TEXPR_Int {
+               loc = 00_sum.xi:14:8;
+               };
+            ];
+      body = Some STMTBlock {
+            loc = 00_sum.xi:15:1;
+            body = [
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 00_sum.xi:16:5;
+                           id = "xs";
+                           tp = TPEXPR_Array {
+                                 loc = 00_sum.xi:16:8;
+                                 sub = TEXPR_Int {
+                                       loc = 00_sum.xi:16:8;
+                                       };
+                                 dim = None;
+                                 };
+                           };
+                     init = Some EXPR_Struct {
+                           loc = 00_sum.xi:16:16;
+                           tag = %node26;
+                           elements = [
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:18;
+                                    tag = %node16;
+                                    value = 0;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:21;
+                                    tag = %node17;
+                                    value = 1;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:24;
+                                    tag = %node18;
+                                    value = 2;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:27;
+                                    tag = %node19;
+                                    value = 3;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:30;
+                                    tag = %node20;
+                                    value = 4;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:33;
+                                    tag = %node21;
+                                    value = 5;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:36;
+                                    tag = %node22;
+                                    value = 6;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:39;
+                                    tag = %node23;
+                                    value = 7;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:42;
+                                    tag = %node24;
+                                    value = 8;
+                                    };
+                                 EXPR_Int {
+                                    loc = 00_sum.xi:16:45;
+                                    tag = %node25;
+                                    value = 9;
+                                    };
+                                 ];
+                           };
+                     };
+                  STMT_Call Call {
+                     loc = 00_sum.xi:17:5;
+                     tag = %node29;
+                     callee = "printInt";
+                     arguments = [
+                           EXPR_Call Call {
+                              loc = 00_sum.xi:17:14;
+                              tag = %node28;
+                              callee = "sumtab";
+                              arguments = [
+                                    EXPR_Id {
+                                       loc = 00_sum.xi:17:21;
+                                       tag = %node27;
+                                       id = "xs";
+                                       };
+                                    ];
+                              };
+                           ];
+                     };
+                  STMT_Return {
+                     loc = 00_sum.xi:18:5;
+                     values = [
+                           EXPR_Int {
+                              loc = 00_sum.xi:18:12;
+                              tag = %node30;
+                              value = 0;
+                              };
+                           ];
+                     };
+                  ];
+            };
+      };
+   ]

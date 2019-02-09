@@ -1,0 +1,65 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 0
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    def [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    move %tmp27, %hard16
+    move %tmp28, %hard17
+    move %tmp29, %hard18
+    move %tmp30, %hard19
+    move %tmp31, %hard20
+    move %tmp32, %hard21
+    move %tmp33, %hard22
+    move %tmp34, %hard23
+    move %hard4, 28
+    call [%hard2], _xi_alloc, [%hard4], kill [%hard1, %hard2, %hard3, %hard4, %hard5, %hard6, %hard7, %hard8, %hard9, %hard10, %hard11, %hard12, %hard13, %hard14, %hard15, %hard24, %hard25]
+    move %tmp0, %hard2
+    add %tmp0, %tmp0, 4
+    storemem %tmp0, -4, 6 // mem[%tmp0 + -4] = 6
+    loadmem %tmp3, %tmp0, 0 // %tmp3 = mem[%tmp0 + 0]
+    storemem %tmp3, 0, 1 // mem[%tmp3 + 0] = 1
+    loadmem %tmp4, %tmp0, 0 // %tmp4 = mem[%tmp0 + 0]
+    storemem %tmp4, 4, 2 // mem[%tmp4 + 4] = 2
+    loadmem %tmp5, %tmp0, 0 // %tmp5 = mem[%tmp0 + 0]
+    storemem %tmp5, 8, 3 // mem[%tmp5 + 8] = 3
+    loadmem %tmp6, %tmp0, 4 // %tmp6 = mem[%tmp0 + 4]
+    storemem %tmp6, 0, 10 // mem[%tmp6 + 0] = 10
+    loadmem %tmp7, %tmp0, 4 // %tmp7 = mem[%tmp0 + 4]
+    storemem %tmp7, 4, 20 // mem[%tmp7 + 4] = 20
+    loadmem %tmp8, %tmp0, 4 // %tmp8 = mem[%tmp0 + 4]
+    storemem %tmp8, 8, 30 // mem[%tmp8 + 8] = 30
+    loadmem %tmp9, %tmp0, 0 // %tmp9 = mem[%tmp0 + 0]
+    loadmem %tmp10, %tmp9, 0 // %tmp10 = mem[%tmp9 + 0]
+    loadmem %tmp11, %tmp0, 0 // %tmp11 = mem[%tmp0 + 0]
+    loadmem %tmp12, %tmp11, 4 // %tmp12 = mem[%tmp11 + 4]
+    add %tmp13, %tmp10, %tmp12
+    loadmem %tmp14, %tmp0, 0 // %tmp14 = mem[%tmp0 + 0]
+    loadmem %tmp15, %tmp14, 8 // %tmp15 = mem[%tmp14 + 8]
+    add %tmp16, %tmp13, %tmp15
+    loadmem %tmp17, %tmp0, 4 // %tmp17 = mem[%tmp0 + 4]
+    loadmem %tmp18, %tmp17, 0 // %tmp18 = mem[%tmp17 + 0]
+    add %tmp19, %tmp16, %tmp18
+    loadmem %tmp20, %tmp0, 4 // %tmp20 = mem[%tmp0 + 4]
+    loadmem %tmp21, %tmp20, 4 // %tmp21 = mem[%tmp20 + 4]
+    add %tmp22, %tmp19, %tmp21
+    loadmem %tmp23, %tmp0, 4 // %tmp23 = mem[%tmp0 + 4]
+    loadmem %tmp24, %tmp23, 8 // %tmp24 = mem[%tmp23 + 8]
+    add %tmp25, %tmp22, %tmp24
+    move %hard2, %tmp25
+    move %hard23, %tmp34
+    move %hard22, %tmp33
+    move %hard21, %tmp32
+    move %hard20, %tmp31
+    move %hard19, %tmp30
+    move %hard18, %tmp29
+    move %hard17, %tmp28
+    move %hard16, %tmp27
+    use [%hard16, %hard17, %hard18, %hard19, %hard20, %hard21, %hard22, %hard23]
+    return [%hard2]

@@ -1,0 +1,17 @@
+CREATE SEQUENCE seq;
+select(NEXTVAL('seq'));
+DROP SEQUENCE seq;
+
+INSERT INTO public."PERSON" (id1, name1, surname, sex)
+VALUES (nextval('seq'), 'Foo2', 'Bar2', false)
+
+CREATE TABLE books (
+  id              SERIAL PRIMARY KEY,
+  title           VARCHAR(100) NOT NULL,
+  primary_author  VARCHAR(100) NULL
+);
+
+INSERT INTO public."books" (title, primary_author)
+VALUES ('Foo2', 'Bar2')
+
+SELECT * FROM public."PERSON" WHERE name1 = 'Foo'

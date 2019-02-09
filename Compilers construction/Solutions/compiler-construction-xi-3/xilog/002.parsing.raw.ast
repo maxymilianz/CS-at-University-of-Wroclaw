@@ -1,0 +1,392 @@
+ModuleDefinition [
+   GDECL_Function {
+      loc = 033_multiarray.xi:1:1;
+      id = "main";
+      formal_parameters = [
+            ];
+      return_types = [
+            TEXPR_Int {
+               loc = 033_multiarray.xi:1:8;
+               };
+            ];
+      body = Some STMTBlock {
+            loc = 033_multiarray.xi:1:12;
+            body = [
+                  STMT_VarDecl {
+                     var = VarDecl {
+                           loc = 033_multiarray.xi:2:5;
+                           id = "xs";
+                           tp = TPEXPR_Array {
+                                 loc = 033_multiarray.xi:2:8;
+                                 sub = TPEXPR_Array {
+                                       loc = 033_multiarray.xi:2:8;
+                                       sub = TEXPR_Int {
+                                             loc = 033_multiarray.xi:2:8;
+                                             };
+                                       dim = Some EXPR_Int {
+                                             loc = 033_multiarray.xi:2:12;
+                                             tag = %node0;
+                                             value = 2;
+                                             };
+                                       };
+                                 dim = Some EXPR_Int {
+                                       loc = 033_multiarray.xi:2:15;
+                                       tag = %node1;
+                                       value = 3;
+                                       };
+                                 };
+                           };
+                     init = None;
+                     };
+                  STMT_Assign {
+                     loc = 033_multiarray.xi:3:5;
+                     lhs = LVALUE_Index {
+                           loc = 033_multiarray.xi:3:5;
+                           sub = EXPR_Index {
+                                 loc = 033_multiarray.xi:3:5;
+                                 tag = %node4;
+                                 expr = EXPR_Id {
+                                       loc = 033_multiarray.xi:3:5;
+                                       tag = %node2;
+                                       id = "xs";
+                                       };
+                                 index = EXPR_Int {
+                                       loc = 033_multiarray.xi:3:8;
+                                       tag = %node3;
+                                       value = 0;
+                                       };
+                                 };
+                           index = EXPR_Int {
+                                 loc = 033_multiarray.xi:3:11;
+                                 tag = %node5;
+                                 value = 0;
+                                 };
+                           };
+                     rhs = EXPR_Int {
+                           loc = 033_multiarray.xi:3:16;
+                           tag = %node6;
+                           value = 1;
+                           };
+                     };
+                  STMT_Assign {
+                     loc = 033_multiarray.xi:4:5;
+                     lhs = LVALUE_Index {
+                           loc = 033_multiarray.xi:4:5;
+                           sub = EXPR_Index {
+                                 loc = 033_multiarray.xi:4:5;
+                                 tag = %node9;
+                                 expr = EXPR_Id {
+                                       loc = 033_multiarray.xi:4:5;
+                                       tag = %node7;
+                                       id = "xs";
+                                       };
+                                 index = EXPR_Int {
+                                       loc = 033_multiarray.xi:4:8;
+                                       tag = %node8;
+                                       value = 0;
+                                       };
+                                 };
+                           index = EXPR_Int {
+                                 loc = 033_multiarray.xi:4:11;
+                                 tag = %node10;
+                                 value = 1;
+                                 };
+                           };
+                     rhs = EXPR_Int {
+                           loc = 033_multiarray.xi:4:16;
+                           tag = %node11;
+                           value = 2;
+                           };
+                     };
+                  STMT_Assign {
+                     loc = 033_multiarray.xi:5:5;
+                     lhs = LVALUE_Index {
+                           loc = 033_multiarray.xi:5:5;
+                           sub = EXPR_Index {
+                                 loc = 033_multiarray.xi:5:5;
+                                 tag = %node14;
+                                 expr = EXPR_Id {
+                                       loc = 033_multiarray.xi:5:5;
+                                       tag = %node12;
+                                       id = "xs";
+                                       };
+                                 index = EXPR_Int {
+                                       loc = 033_multiarray.xi:5:8;
+                                       tag = %node13;
+                                       value = 0;
+                                       };
+                                 };
+                           index = EXPR_Int {
+                                 loc = 033_multiarray.xi:5:11;
+                                 tag = %node15;
+                                 value = 2;
+                                 };
+                           };
+                     rhs = EXPR_Int {
+                           loc = 033_multiarray.xi:5:16;
+                           tag = %node16;
+                           value = 3;
+                           };
+                     };
+                  STMT_Assign {
+                     loc = 033_multiarray.xi:6:5;
+                     lhs = LVALUE_Index {
+                           loc = 033_multiarray.xi:6:5;
+                           sub = EXPR_Index {
+                                 loc = 033_multiarray.xi:6:5;
+                                 tag = %node19;
+                                 expr = EXPR_Id {
+                                       loc = 033_multiarray.xi:6:5;
+                                       tag = %node17;
+                                       id = "xs";
+                                       };
+                                 index = EXPR_Int {
+                                       loc = 033_multiarray.xi:6:8;
+                                       tag = %node18;
+                                       value = 1;
+                                       };
+                                 };
+                           index = EXPR_Int {
+                                 loc = 033_multiarray.xi:6:11;
+                                 tag = %node20;
+                                 value = 0;
+                                 };
+                           };
+                     rhs = EXPR_Int {
+                           loc = 033_multiarray.xi:6:16;
+                           tag = %node21;
+                           value = 10;
+                           };
+                     };
+                  STMT_Assign {
+                     loc = 033_multiarray.xi:7:5;
+                     lhs = LVALUE_Index {
+                           loc = 033_multiarray.xi:7:5;
+                           sub = EXPR_Index {
+                                 loc = 033_multiarray.xi:7:5;
+                                 tag = %node24;
+                                 expr = EXPR_Id {
+                                       loc = 033_multiarray.xi:7:5;
+                                       tag = %node22;
+                                       id = "xs";
+                                       };
+                                 index = EXPR_Int {
+                                       loc = 033_multiarray.xi:7:8;
+                                       tag = %node23;
+                                       value = 1;
+                                       };
+                                 };
+                           index = EXPR_Int {
+                                 loc = 033_multiarray.xi:7:11;
+                                 tag = %node25;
+                                 value = 1;
+                                 };
+                           };
+                     rhs = EXPR_Int {
+                           loc = 033_multiarray.xi:7:16;
+                           tag = %node26;
+                           value = 20;
+                           };
+                     };
+                  STMT_Assign {
+                     loc = 033_multiarray.xi:8:5;
+                     lhs = LVALUE_Index {
+                           loc = 033_multiarray.xi:8:5;
+                           sub = EXPR_Index {
+                                 loc = 033_multiarray.xi:8:5;
+                                 tag = %node29;
+                                 expr = EXPR_Id {
+                                       loc = 033_multiarray.xi:8:5;
+                                       tag = %node27;
+                                       id = "xs";
+                                       };
+                                 index = EXPR_Int {
+                                       loc = 033_multiarray.xi:8:8;
+                                       tag = %node28;
+                                       value = 1;
+                                       };
+                                 };
+                           index = EXPR_Int {
+                                 loc = 033_multiarray.xi:8:11;
+                                 tag = %node30;
+                                 value = 2;
+                                 };
+                           };
+                     rhs = EXPR_Int {
+                           loc = 033_multiarray.xi:8:16;
+                           tag = %node31;
+                           value = 30;
+                           };
+                     };
+                  STMT_Return {
+                     loc = 033_multiarray.xi:9:5;
+                     values = [
+                           EXPR_Binop {
+                              loc = 033_multiarray.xi:9:12;
+                              tag = %node66;
+                              op = BINOP_Add;
+                              lhs = EXPR_Binop {
+                                    loc = 033_multiarray.xi:9:12;
+                                    tag = %node60;
+                                    op = BINOP_Add;
+                                    lhs = EXPR_Binop {
+                                          loc = 033_multiarray.xi:9:12;
+                                          tag = %node54;
+                                          op = BINOP_Add;
+                                          lhs = EXPR_Binop {
+                                                loc = 033_multiarray.xi:9:12;
+                                                tag = %node48;
+                                                op = BINOP_Add;
+                                                lhs = EXPR_Binop {
+                                                      loc = 033_multiarray.xi:9:12;
+                                                      tag = %node42;
+                                                      op = BINOP_Add;
+                                                      lhs = EXPR_Index {
+                                                            loc = 033_multiarray.xi:9:12;
+                                                            tag = %node36;
+                                                            expr = EXPR_Index {
+                                                                  loc = 033_multiarray.xi:9:12;
+                                                                  tag = %node34;
+                                                                  expr = EXPR_Id {
+                                                                        loc = 033_multiarray.xi:9:12;
+                                                                        tag = %node32;
+                                                                        id = "xs";
+                                                                        };
+                                                                  index = EXPR_Int {
+                                                                        loc = 033_multiarray.xi:9:15;
+                                                                        tag = %node33;
+                                                                        value = 0;
+                                                                        };
+                                                                  };
+                                                            index = EXPR_Int {
+                                                                  loc = 033_multiarray.xi:9:18;
+                                                                  tag = %node35;
+                                                                  value = 0;
+                                                                  };
+                                                            };
+                                                      rhs = EXPR_Index {
+                                                            loc = 033_multiarray.xi:9:23;
+                                                            tag = %node41;
+                                                            expr = EXPR_Index {
+                                                                  loc = 033_multiarray.xi:9:23;
+                                                                  tag = %node39;
+                                                                  expr = EXPR_Id {
+                                                                        loc = 033_multiarray.xi:9:23;
+                                                                        tag = %node37;
+                                                                        id = "xs";
+                                                                        };
+                                                                  index = EXPR_Int {
+                                                                        loc = 033_multiarray.xi:9:26;
+                                                                        tag = %node38;
+                                                                        value = 0;
+                                                                        };
+                                                                  };
+                                                            index = EXPR_Int {
+                                                                  loc = 033_multiarray.xi:9:29;
+                                                                  tag = %node40;
+                                                                  value = 1;
+                                                                  };
+                                                            };
+                                                      };
+                                                rhs = EXPR_Index {
+                                                      loc = 033_multiarray.xi:9:34;
+                                                      tag = %node47;
+                                                      expr = EXPR_Index {
+                                                            loc = 033_multiarray.xi:9:34;
+                                                            tag = %node45;
+                                                            expr = EXPR_Id {
+                                                                  loc = 033_multiarray.xi:9:34;
+                                                                  tag = %node43;
+                                                                  id = "xs";
+                                                                  };
+                                                            index = EXPR_Int {
+                                                                  loc = 033_multiarray.xi:9:37;
+                                                                  tag = %node44;
+                                                                  value = 0;
+                                                                  };
+                                                            };
+                                                      index = EXPR_Int {
+                                                            loc = 033_multiarray.xi:9:40;
+                                                            tag = %node46;
+                                                            value = 2;
+                                                            };
+                                                      };
+                                                };
+                                          rhs = EXPR_Index {
+                                                loc = 033_multiarray.xi:9:45;
+                                                tag = %node53;
+                                                expr = EXPR_Index {
+                                                      loc = 033_multiarray.xi:9:45;
+                                                      tag = %node51;
+                                                      expr = EXPR_Id {
+                                                            loc = 033_multiarray.xi:9:45;
+                                                            tag = %node49;
+                                                            id = "xs";
+                                                            };
+                                                      index = EXPR_Int {
+                                                            loc = 033_multiarray.xi:9:48;
+                                                            tag = %node50;
+                                                            value = 1;
+                                                            };
+                                                      };
+                                                index = EXPR_Int {
+                                                      loc = 033_multiarray.xi:9:51;
+                                                      tag = %node52;
+                                                      value = 0;
+                                                      };
+                                                };
+                                          };
+                                    rhs = EXPR_Index {
+                                          loc = 033_multiarray.xi:9:56;
+                                          tag = %node59;
+                                          expr = EXPR_Index {
+                                                loc = 033_multiarray.xi:9:56;
+                                                tag = %node57;
+                                                expr = EXPR_Id {
+                                                      loc = 033_multiarray.xi:9:56;
+                                                      tag = %node55;
+                                                      id = "xs";
+                                                      };
+                                                index = EXPR_Int {
+                                                      loc = 033_multiarray.xi:9:59;
+                                                      tag = %node56;
+                                                      value = 1;
+                                                      };
+                                                };
+                                          index = EXPR_Int {
+                                                loc = 033_multiarray.xi:9:62;
+                                                tag = %node58;
+                                                value = 1;
+                                                };
+                                          };
+                                    };
+                              rhs = EXPR_Index {
+                                    loc = 033_multiarray.xi:9:67;
+                                    tag = %node65;
+                                    expr = EXPR_Index {
+                                          loc = 033_multiarray.xi:9:67;
+                                          tag = %node63;
+                                          expr = EXPR_Id {
+                                                loc = 033_multiarray.xi:9:67;
+                                                tag = %node61;
+                                                id = "xs";
+                                                };
+                                          index = EXPR_Int {
+                                                loc = 033_multiarray.xi:9:70;
+                                                tag = %node62;
+                                                value = 1;
+                                                };
+                                          };
+                                    index = EXPR_Int {
+                                          loc = 033_multiarray.xi:9:73;
+                                          tag = %node64;
+                                          value = 2;
+                                          };
+                                    };
+                              };
+                           ];
+                     };
+                  ];
+            };
+      };
+   ]

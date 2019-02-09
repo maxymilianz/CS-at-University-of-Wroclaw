@@ -1,0 +1,32 @@
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 0
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2, L3]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    mul %tmp2, 7, 4
+    add %tmp2, 28, 4
+    call [%tmp0], _xi_alloc, [32], kill []
+    add %tmp0, %tmp0, 4
+    storemem %tmp0, -4, 7 // mem[%tmp0 + -4] = 7
+    storemem %tmp0, 0, 87 // mem[%tmp0 + 0] = 87
+    storemem %tmp0, 4, 114 // mem[%tmp0 + 4] = 114
+    storemem %tmp0, 8, 111 // mem[%tmp0 + 8] = 111
+    storemem %tmp0, 12, 99 // mem[%tmp0 + 12] = 99
+    storemem %tmp0, 16, 108 // mem[%tmp0 + 16] = 108
+    storemem %tmp0, 20, 97 // mem[%tmp0 + 20] = 97
+    storemem %tmp0, 24, 119 // mem[%tmp0 + 24] = 119
+    move %tmp1, %tmp0
+    call [], _I_sort_ai_, [%tmp0], kill []
+    call [], _I_printString_ai_, [%tmp0], kill []
+    return [1]
+L3:
+    cfg successors: [L1]
+    cfg predecessors: []
+
+    return []

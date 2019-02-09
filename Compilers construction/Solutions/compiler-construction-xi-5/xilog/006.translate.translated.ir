@@ -1,0 +1,98 @@
+////////////////////////////////////// 
+procedure _I_sort_ai_
+    frame size: 0
+    formal parameters: 1
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L4]
+L2:
+    cfg successors: [L3]
+    cfg predecessors: [L0]
+    move %tmp1, 0
+    length %tmp2, %tmp0
+    move %tmp3, %tmp2
+    jump L3
+L3:
+    cfg successors: [L4, L5]
+    cfg predecessors: [L2, L7]
+
+    branch lt, %tmp1, %tmp3, L5, L4
+L4:
+    cfg successors: [L1]
+    cfg predecessors: [L3]
+
+    return []
+L5:
+    cfg successors: [L6]
+    cfg predecessors: [L3]
+    move %tmp4, %tmp1
+    jump L6
+L6:
+    cfg successors: [L7, L8]
+    cfg predecessors: [L5, L9]
+
+    branch gt, %tmp4, 0, L8, L7
+L7:
+    cfg successors: [L3]
+    cfg predecessors: [L6]
+    add %tmp14, %tmp1, 1
+    move %tmp1, %tmp14
+    jump L3
+L8:
+    cfg successors: [L10, L11]
+    cfg predecessors: [L6]
+    sub %tmp5, %tmp4, 1
+    loadarray %tmp6, %tmp0, %tmp5 // %tmp6 = %tmp0[%tmp5]
+    loadarray %tmp7, %tmp0, %tmp4 // %tmp7 = %tmp0[%tmp4]
+    branch gt, %tmp6, %tmp7, L11, L10
+L9:
+    cfg successors: [L6]
+    cfg predecessors: [L10, L11]
+    sub %tmp13, %tmp4, 1
+    move %tmp4, %tmp13
+    jump L6
+L10:
+    cfg successors: [L9]
+    cfg predecessors: [L8]
+
+    jump L9
+L11:
+    cfg successors: [L9]
+    cfg predecessors: [L8]
+    loadarray %tmp8, %tmp0, %tmp4 // %tmp8 = %tmp0[%tmp4]
+    move %tmp9, %tmp8
+    sub %tmp10, %tmp4, 1
+    loadarray %tmp11, %tmp0, %tmp10 // %tmp11 = %tmp0[%tmp10]
+    storearray %tmp0, %tmp4, %tmp11 // %tmp0[%tmp4] = %tmp11
+    sub %tmp12, %tmp4, 1
+    storearray %tmp0, %tmp12, %tmp9 // %tmp0[%tmp12] = %tmp9
+    jump L9
+////////////////////////////////////// 
+procedure _I_main__i
+    frame size: 0
+    formal parameters: 0
+    cfg entry point: L0
+    cfg entry point successors: [L2]
+    cfg exit point: L1
+    cfg exit point predecessors : [L2, L3]
+L2:
+    cfg successors: [L1]
+    cfg predecessors: [L0]
+    newarray %tmp0, 7
+    storearray %tmp0, 0, 87 // %tmp0[0] = 87
+    storearray %tmp0, 1, 114 // %tmp0[1] = 114
+    storearray %tmp0, 2, 111 // %tmp0[2] = 111
+    storearray %tmp0, 3, 99 // %tmp0[3] = 99
+    storearray %tmp0, 4, 108 // %tmp0[4] = 108
+    storearray %tmp0, 5, 97 // %tmp0[5] = 97
+    storearray %tmp0, 6, 119 // %tmp0[6] = 119
+    move %tmp1, %tmp0
+    call [], _I_sort_ai_, [%tmp1], kill []
+    call [], _I_printString_ai_, [%tmp1], kill []
+    return [1]
+L3:
+    cfg successors: [L1]
+    cfg predecessors: []
+
+    return []

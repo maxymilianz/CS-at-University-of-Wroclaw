@@ -1,0 +1,8 @@
+sudo su - postgres
+psql
+create user init with encrypted password 'qwerty';
+alter role init createrole;
+create database student;
+\q
+psql -d student
+create extension pgcrypto;

@@ -1,0 +1,127 @@
+id_score + title_score + 0.5 * contents_score
+title_score, contents_score: 2*exact_words_score + lemmas_score
+41
+
+2*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: 2*exact_words_score + lemmas_score
+43
+
+10*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: 2*exact_words_score + lemmas_score
+46
+
+5*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: exact_words_score + lemmas_score
+46
+
+5*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: 4*exact_words_score + lemmas_score
+44
+
+10*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: exact_words_score + lemmas_score
+46
+
+
+10*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: 2*exact_words_score + lemmas_score
+'Czy' -> tak
+80
+
+10*id_score + title_score + 0.5 * contents_score
+title_score, contents_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+80
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+89
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+97
+
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+103
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF if len(tokens) <= 3 else first
+98
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+phrasal
+TODO best with threads.
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+year
+104
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+phrasal year
+106
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+year, century
+114
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+year, century, human name
+114
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+year, century, human name
+name, 1 best idf lemma, wiktionary
+106
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+year, century, human name
+name, 2 best idf lemmas, wiktionary
+108
+
+10*id_score + title_score
+title_score: 2*exact_words_score + lemmas_score
+'Czy ' -> tak
+ExtractWordsTokenizer
+IDF
+year, century, human name
+name, 1 best idf lemma, embeddings, wiktionary
+104

@@ -1,0 +1,50 @@
+SYNONIMY
+
+aksjomat # pewnik # postulat
+alternatywa # suma logiczna
+Przylądek Agulhas # Przylądek Igielny
+propanon # aceton
+dychawica oskrzelowa # astma oskrzelowa
+Adampol # Polonezköy
+amonity # amonitowate
+alfabet hebrajski # pismo kwadratowe # pismo żydowskie
+nadwrażliwość # alergia # uczulenie
+łacinka # alfabet łaciński # alfabet rzymski
+Ajnosi # Ajnowie
+1-fenylo-2-aminopropan # amfetamina
+Palestyńskie Władze Narodowe # Autonomia Palestyńska
+astma # dychawica
+Ariowie # Indo-Irańczycy
+kwasoryt # akwaforta
+Angloameryka # Ameryka Anglosaska
+akcydens # druk akcydensowy
+brudnopis # brulion
+plazmolemma # błona komórkowa
+
+
+NIE SYNONIMY
+
+Antropologia # Antropologia (nauka)
+I # AIX # A # X
+3 # 4 # 2 # 5 # Aparat Golgiego # 1
+Azot # ±3
+Asembler # językiem asemblera
+Antonio de Padua María Severino López de Santa Anna y Pérez de Lebrón # Antonio López de Santa Anna
+Ar # Argon
+Achtung - Panzer! # Achtung – Panzer!
+Apartheid  # Apartheid
+Aleksander Baranow # Aleksander A. Baranow
+anime # Anime
+А́нна Серге́евна Ку́рникова # Anna Siergiejewna Kurnikowa # Anna Kurnikowa
+Aszkenazyjczycy #  אַשְׁכְּנָזִים
+A # Amper
+
+
+POPRAWIONE
+
+Azot # ±3
+Asembler # językiem asemblera
+Antonio de Padua María Severino López de Santa Anna y Pérez de Lebrón # Antonio López de Santa Anna
+Achtung – Panzer! # Achtung - Panzer!
+Aleksander Baranow # Aleksander A. Baranow
+Anna Kurnikowa # Anna Siergiejewna Kurnikowa

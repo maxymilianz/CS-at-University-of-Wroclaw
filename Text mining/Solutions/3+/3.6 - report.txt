@@ -1,0 +1,36 @@
+edit distance to all words - too slow, ~40 in 10 minutes
+
+edit distance to words with common or nearby first letter - 53,17%
+
+first edit distance to polonizations;
+if fails, then to words with common or nearby first letter - 59,23%
+
+as above, but normalization from c2 instead of polonization - 58,4%
+
+first edit distance to polonizations;
+if fails, then from similar words to their polonizations;
+if fails, then from the given word to words with common or nearby first letter - 61,71%
+
+first edit distance from similar words to their polonizations;
+if fails, then from the given word to words with common or nearby first letter - 56,75%
+
+first edit distance to polonizations;
+if fails, then from similar words to their polonizations + from the given word to the polonization;
+if fails, then from the given word to words with common or nearby first letter - 63,91%
+
+first edit distance to polonizations;
+if fails, then from similar NORMALIZED words to their polonizations + from the given word to the polonization;
+if fails, then from the given word to words with common or nearby first letter - 61,71%
+
+first edit distance to polonizations;
+if fails, then from similar NORMALIZED words to their polonizations;
+if fails, then from the given word to words with common or nearby first letter - 67,22%
+
+first edit distance to polonizations;
+if fails, then from similar (including adjacent letter SWAPS) NORMALIZED words to their polonizations;
+if fails, then from the given word to words with common or nearby first letter - 69,7%
+
+first edit distance to polonizations;
+if fails, then from similar (including adjacent letter SWAPS; adding only nearby letters)
+    NORMALIZED words to their polonizations;
+if fails, then from the given word to words with common or nearby first letter - 70,25%

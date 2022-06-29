@@ -1,0 +1,18 @@
+1335 times: "poprostu" instead of "po prostu"
+1138 times: "napewno" instead of "na pewno"
+993 times: "narazie" instead of "na razie"
+785 times: "wogóle" instead of "w ogóle"
+372 times: "pozatym" instead of "poza tym"
+289 times: "odrazu" instead of "od razu"
+256 times: "niewiem" instead of "nie wiem"
+211 times: "conajmniej" instead of "co najmniej"
+207 times: "codzień" instead of "co dzień"
+181 times: "niewiadomo" instead of "nie wiadomo"
+164 times: "możnaby" instead of "można by"
+160 times: "wkońcu" instead of "w końcu"
+152 times: "j eszcze" instead of "jeszcze"
+130 times: "j utro" instead of "jutro"
+119 times: "j est" instead of "jest"
+90 times: "przedewszystkim" instead of "przede wszystkim"
+
+Ogółem znalazłem znacznie więcej niż 10k, w tym te przykładowe z zadania. Reszta jest imo wystarczająco wiarygodna.
